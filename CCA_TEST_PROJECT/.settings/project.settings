@@ -263,7 +263,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "IMPLICIT_TCONTEXTLOAD",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -281,7 +281,7 @@
         "show" : true,
         "field" : "RADIO",
         "name" : "FROM_DATABASE_FLAG_IMPLICIT_CONTEXT",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -346,19 +346,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST_IMPLICIT_CONTEXT",
-        "value" : "\"\"",
+        "value" : "context.connection_dbtarget_host",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT_IMPLICIT_CONTEXT",
-        "value" : "\"\"",
+        "value" : "context.connection_dbtarget_post",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME_IMPLICIT_CONTEXT",
-        "value" : "\"\"",
+        "value" : "context.connection_dbtarget_database",
         "contextMode" : false
       }, {
         "show" : true,
@@ -382,13 +382,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "USER_IMPLICIT_CONTEXT",
-        "value" : "\"\"",
+        "value" : "context.connection_dbtarget_user",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:TeH/ogM0znve5OSGvYo52Oi43SssM+6KOQTPArMv",
+        "value" : "enc:system.encryption.key.v1:djwKU2h0jzgyld79qu7kGiE2wHgiO5B3xF4AqbnOaWEzW1U7yjjYGAfSg8oJxdP5j2AGjkzqmh+x399J5kLrmA==",
         "contextMode" : false
       }, {
         "show" : true,
@@ -412,13 +412,13 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "LOAD_NEW_VARIABLE",
-        "value" : "",
+        "value" : "Warning",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "NOT_LOAD_OLD_VARIABLE",
-        "value" : "",
+        "value" : "Warning",
         "contextMode" : false
       }, {
         "show" : true,
