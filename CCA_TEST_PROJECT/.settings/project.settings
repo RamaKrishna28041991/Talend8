@@ -317,13 +317,13 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_TYPE_IMPLICIT_CONTEXT",
-        "value" : "",
+        "value" : "tMSSqlInput",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_VERSION_IMPLICIT_CONTEXT",
-        "value" : "",
+        "value" : "JTDS",
         "contextMode" : false
       }, {
         "show" : true,
