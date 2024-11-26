@@ -5,19 +5,19 @@
     "repoId" : "_ZQ9dwKfAEe-cEoxdCI0KYA",
     "parameterList" : [ {
       "id" : "_bYB386fAEe-cEoxdCI0KYA",
-      "name" : "dbsource_database"
+      "name" : "dbtarget_database"
     }, {
       "id" : "_ZRlv4KfAEe-cEoxdCI0KYA",
-      "name" : "dbsource_host"
+      "name" : "dbtarget_host"
     }, {
       "id" : "_bYB38qfAEe-cEoxdCI0KYA",
-      "name" : "dbsource_password"
+      "name" : "dbtarget_password"
     }, {
       "id" : "_bYB38KfAEe-cEoxdCI0KYA",
-      "name" : "dbsource_port"
+      "name" : "dbtarget_post"
     }, {
       "id" : "_bYB38afAEe-cEoxdCI0KYA",
-      "name" : "dbsource_user"
+      "name" : "dbtarget_user"
     } ]
   }, {
     "contextName" : "Default",
