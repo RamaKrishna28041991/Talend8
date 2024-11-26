@@ -382,13 +382,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "USER_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_user",
+        "value" : "dip",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:djwKU2h0jzgyld79qu7kGiE2wHgiO5B3xF4AqbnOaWEzW1U7yjjYGAfSg8oJxdP5j2AGjkzqmh+x399J5kLrmA==",
+        "value" : "enc:system.encryption.key.v1:KKUfijZpAEaKDJZ6I1kzcQvpsWO86XXQ/yCeHvzLwbtbbEUtNzMIlg==",
         "contextMode" : false
       }, {
         "show" : true,
