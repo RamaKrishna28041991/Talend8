@@ -1,35 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" hide="false" name="Default" xmi:id="_Q-EagafAEe-cEoxdCI0KYA" xmi:version="2.0">
-  <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Q-qQYKfAEe-cEoxdCI0KYA"/>
-  <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_SR1vgKfAEe-cEoxdCI0KYA"/>
-  <contextParameter comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_T0gcIKfAEe-cEoxdCI0KYA"/>
-  <contextParameter comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_T0gcIafAEe-cEoxdCI0KYA"/>
-  <contextParameter comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_T0gcIqfAEe-cEoxdCI0KYA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_37bdb743-5476-45af-8231-7452164bb7c6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nmiDFi3013n7EbU17CyB9pW3wln4e7hl94A6apT/JSzmEzKed/xKt09ceaO87R0W9nDkY3v/8kNL&#13;
-68Kc/hYCQw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bf959727-67f0-4e5d-b670-9b61a09b7c6b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pnDRRURSQ4+tS3KeibyqXB2U9scvVaRsct37NoOJBoVFELEdl5PIxuxjJRXuG3QEHzKahskvcKAE&#13;
-pToQRZnYCw==</DigestValue></Reference></SignedInfo><SignatureValue>JLEHhsPmX6RFroR2BOQfNYeO5D3S5WNjG5S6xgJZyEjEWfk8PihAM1AKePVGFhg8J0turAJC9DGY&#13;
-MvjncktMyeilqS/1+t9GaEV8o60Mr0gYFtj22gIfyG3ZnJZRq6xCQVUZwAC2E6SvBEZr97Rdu0na&#13;
-xuzuZOK08OB0P/isUU/k7VoG+xiosm5FLdRUnEK+14EikD9o8j6kSB6KuvT3W/HA3aPdJM6+D/06&#13;
-L4GmApK0fSbmthJ4Kq5y51cLxqn0rGsJU6zUAuTshmhUWgQSB7OjgTJkXKTHGX9QYm2fI0ijZuvY&#13;
-USlVOoLRNLRpTKGxOBXyImjFvDrhUQ2Jqj73HQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bf959727-67f0-4e5d-b670-9b61a09b7c6b" Target="#_37bdb743-5476-45af-8231-7452164bb7c6"><Timestamp>2024-12-02 17:39:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Q-EagafAEe-cEoxdCI0KYA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_Q-qQYKfAEe-cEoxdCI0KYA" comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="70.184.87.7"/>
+  <contextParameter xmi:id="_SR1vgKfAEe-cEoxdCI0KYA" comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3004"/>
+  <contextParameter xmi:id="_T0gcIKfAEe-cEoxdCI0KYA" comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CCA_Test"/>
+  <contextParameter xmi:id="_T0gcIafAEe-cEoxdCI0KYA" comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dip"/>
+  <contextParameter xmi:id="_T0gcIqfAEe-cEoxdCI0KYA" comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Artha@2023"/>
+</talendfile:ContextType>
