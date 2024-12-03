@@ -346,19 +346,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_host",
+        "value" : "context.connection_dbtarget_test_host",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_post",
+        "value" : "context.connection_dbtarget_test_port",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_database",
+        "value" : "context.connection_dbtarget_test_database",
         "contextMode" : false
       }, {
         "show" : true,
@@ -382,13 +382,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "USER_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_user",
+        "value" : "context.connection_dbtarget_test_user",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:tfUE1h0uAzJ+ESfnvVl5sFf8f0oMZjk+SliZlM0QAeyvnA43KiB9L2/brEUBxfszeNoHovQqtEsPQUcZn8YQFw==",
+        "value" : "enc:system.encryption.key.v1:i8XcblFMiM/iHMA59S2qq2gReAE4vmwgWc4mprrSHYnkdFBOuXJ9NOvd1jhQ0dRmAgJP/AaH3oS9qhr/i9PMj7/pR2GA",
         "contextMode" : false
       }, {
         "show" : true,
@@ -412,19 +412,19 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "LOAD_NEW_VARIABLE",
-        "value" : "Warning",
+        "value" : "Info",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "NOT_LOAD_OLD_VARIABLE",
-        "value" : "Warning",
+        "value" : "Info",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "PRINT_OPERATIONS",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
