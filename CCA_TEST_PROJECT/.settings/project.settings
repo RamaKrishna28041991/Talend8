@@ -275,19 +275,19 @@
         "show" : true,
         "field" : "RADIO",
         "name" : "FROM_FILE_FLAG_IMPLICIT_CONTEXT",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "RADIO",
         "name" : "FROM_DATABASE_FLAG_IMPLICIT_CONTEXT",
-        "value" : "true",
+        "value" : "false",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "FILE",
         "name" : "IMPLICIT_TCONTEXTLOAD_FILE",
-        "value" : "\"D:/Artha/0. ConfigurationFiles - Notes/dbConnection.csv\"",
+        "value" : "\"D:/Artha/0. Project - Tasks/2. ContextLoad/connection.properties\"",
         "contextMode" : false
       }, {
         "show" : true,
