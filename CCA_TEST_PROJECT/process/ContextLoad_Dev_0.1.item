@@ -266,7 +266,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;&#xA;&#xA;// Configure the decryptor&#xA;StandardPBEStringEncryptor decryptor = new StandardPBEStringEncryptor();&#xA;decryptor.setAlgorithm(&quot;PBEWithMD5AndDES&quot;);&#xA;decryptor.setPassword(&quot;IWILLNOTSHARE&quot;);  // Use your encryption key&#xA;&#xA;// Decrypt the password&#xA;context.db_password = decryptor.decrypt(context.db_password);&#xA;System.out.println(&quot;Decrypted Password Loaded&quot;);&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// Configure the decryptor&#xA;StandardPBEStringEncryptor decryptor = new StandardPBEStringEncryptor();&#xA;decryptor.setAlgorithm(&quot;PBEWithMD5AndDES&quot;);&#xA;decryptor.setPassword(&quot;IWILLNOTSHARE&quot;);  // Use your encryption key&#xA;&#xA;// Decrypt the password&#xA;context.db_password = decryptor.decrypt(context.db_password);&#xA;System.out.println(&quot;Decrypted Password Loaded&quot;);&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1">
