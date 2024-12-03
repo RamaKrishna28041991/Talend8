@@ -8,10 +8,10 @@
       "name" : "connection_dbtarget_host"
     }, {
       "id" : "_HRQBHrDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_port"
+      "name" : "connection_dbtarget_post"
     }, {
       "id" : "_HRQBH7DuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_name"
+      "name" : "connection_dbtarget_database"
     }, {
       "id" : "_HRQBILDuEe-uxdrKKZgzCg",
       "name" : "connection_dbtarget_user"
@@ -27,10 +27,10 @@
       "name" : "connection_dbtarget_host"
     }, {
       "id" : "_HRQBGLDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_port"
+      "name" : "connection_dbtarget_post"
     }, {
       "id" : "_HRQBGbDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_name"
+      "name" : "connection_dbtarget_database"
     }, {
       "id" : "_HRQBGrDuEe-uxdrKKZgzCg",
       "name" : "connection_dbtarget_user"
@@ -46,10 +46,10 @@
       "name" : "connection_dbtarget_host"
     }, {
       "id" : "_HRQBJLDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_port"
+      "name" : "connection_dbtarget_post"
     }, {
       "id" : "_HRQBJbDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_name"
+      "name" : "connection_dbtarget_database"
     }, {
       "id" : "_HRQBJrDuEe-uxdrKKZgzCg",
       "name" : "connection_dbtarget_user"
@@ -65,10 +65,10 @@
       "name" : "connection_dbtarget_host"
     }, {
       "id" : "_HRQBErDuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_port"
+      "name" : "connection_dbtarget_post"
     }, {
       "id" : "_HRQBE7DuEe-uxdrKKZgzCg",
-      "name" : "connection_dbtarget_name"
+      "name" : "connection_dbtarget_database"
     }, {
       "id" : "_HRQBFLDuEe-uxdrKKZgzCg",
       "name" : "connection_dbtarget_user"
