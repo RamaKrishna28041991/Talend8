@@ -101,13 +101,28 @@
   </parameters>
   <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
-    <elementParameter field="MODULE_LIST" name="LIBRARY" value=""/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;mvn:org.jasypt/jasypt/1.9.2/jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Configure encryptor class&#xA;&#xA;StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();&#xA;&#xA;encryptor.setAlgorithm(&quot;PBEWithMD5AndDES&quot;);&#xA;&#xA;encryptor.setPassword(&quot;BOB&quot;);&#xA;&#xA;&#xA;&#xA;&#xA;//Set the String to encrypt and print it&#xA;&#xA;String stringToEncrypt = &quot;Hello World&quot;;&#xA;&#xA;System.out.println(stringToEncrypt);&#xA;&#xA;&#xA;&#xA;//Encrypt the String and store it as the cipher String. Then print it&#xA;&#xA;String cipher = encryptor.encrypt(stringToEncrypt);&#xA;&#xA;System.out.println(cipher);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
   </subjob>
