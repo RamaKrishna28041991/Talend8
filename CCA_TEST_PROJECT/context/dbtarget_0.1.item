@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Q-EagafAEe-cEoxdCI0KYA" confirmationNeeded="false" hide="false" name="Default">
-  <contextParameter xmi:id="_Q-qQYKfAEe-cEoxdCI0KYA" comment="" name="dbtarget_host" prompt="dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="70.184.87.7"/>
-  <contextParameter xmi:id="_SR1vgKfAEe-cEoxdCI0KYA" comment="" name="dbtarget_post" prompt="dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3004"/>
-  <contextParameter xmi:id="_T0gcIKfAEe-cEoxdCI0KYA" comment="" name="dbtarget_database" prompt="dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CCA_Test"/>
-  <contextParameter xmi:id="_T0gcIafAEe-cEoxdCI0KYA" comment="" name="dbtarget_user" prompt="dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dip"/>
-  <contextParameter xmi:id="_T0gcIqfAEe-cEoxdCI0KYA" comment="" name="dbtarget_password" prompt="dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Artha@2023"/>
-</talendfile:ContextType>
