@@ -346,19 +346,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_test_host",
+        "value" : "context.connection_dbtest_host",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_test_port",
+        "value" : "context.connection_dbtest_port",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_test_database",
+        "value" : "context.connection_dbtest_host",
         "contextMode" : false
       }, {
         "show" : true,
@@ -382,13 +382,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "USER_IMPLICIT_CONTEXT",
-        "value" : "context.connection_dbtarget_test_user",
+        "value" : "context.connection_dbtest_user",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:i8XcblFMiM/iHMA59S2qq2gReAE4vmwgWc4mprrSHYnkdFBOuXJ9NOvd1jhQ0dRmAgJP/AaH3oS9qhr/i9PMj7/pR2GA",
+        "value" : "enc:system.encryption.key.v1:4AlTUMVcY5zs4bqiQBpyRQhRnabz7Dp2V2Sy8UUayBpOMiZylU3u17DH1Ky5NtdISbFaXwu8wublMpqRTLw=",
         "contextMode" : false
       }, {
         "show" : true,
