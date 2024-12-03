@@ -2,29 +2,29 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_HRQBELDuEe-uxdrKKZgzCg" confirmationNeeded="false" hide="false" name="Default">
     <contextParameter xmi:id="_HRQBEbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBErDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_port" prompt="connection_dbtarget_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBE7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_name" prompt="connection_dbtarget_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBErDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBE7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBFLDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBFbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HRQBFrDuEe-uxdrKKZgzCg" confirmationNeeded="false" hide="false" name="DEV">
     <contextParameter xmi:id="_HRQBF7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBGLDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_port" prompt="connection_dbtarget_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBGbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_name" prompt="connection_dbtarget_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBGLDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBGbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBGrDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBG7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HRQBHLDuEe-uxdrKKZgzCg" confirmationNeeded="false" hide="false" name="PROD">
     <contextParameter xmi:id="_HRQBHbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBHrDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_port" prompt="connection_dbtarget_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBH7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_name" prompt="connection_dbtarget_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBHrDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBH7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBILDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBIbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HRQBIrDuEe-uxdrKKZgzCg" confirmationNeeded="false" hide="false" name="TEST">
     <contextParameter xmi:id="_HRQBI7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBJLDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_port" prompt="connection_dbtarget_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HRQBJbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_name" prompt="connection_dbtarget_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBJLDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HRQBJbDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBJrDuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HRQBJ7DuEe-uxdrKKZgzCg" comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
