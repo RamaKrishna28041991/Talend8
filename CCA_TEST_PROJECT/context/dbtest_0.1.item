@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_WAUHYLG7Ee-s18zJAw6ahw" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_WAUHYbG7Ee-s18zJAw6ahw" comment="" name="connection_dbtest_database" prompt="connection_dbtest_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_WAUHYrG7Ee-s18zJAw6ahw" comment="" name="connection_dbtest_host" prompt="connection_dbtest_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_WAUHY7G7Ee-s18zJAw6ahw" comment="" name="connection_dbtest_user" prompt="connection_dbtest_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_WAUHZLG7Ee-s18zJAw6ahw" comment="" name="connection_dbtest_password" prompt="connection_dbtest_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_WAUHZbG7Ee-s18zJAw6ahw" comment="" name="connection_dbtest_port" prompt="connection_dbtest_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

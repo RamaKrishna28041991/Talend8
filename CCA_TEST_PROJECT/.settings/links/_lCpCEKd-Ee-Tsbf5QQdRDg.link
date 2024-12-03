@@ -24,19 +24,19 @@
     "repoId" : "_V_20YLG7Ee-s18zJAw6ahw",
     "parameterList" : [ {
       "id" : "_WAUHYrG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_host"
+      "name" : "connection_dbtest_host"
     }, {
       "id" : "_WAUHYbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_database"
+      "name" : "connection_dbtest_database"
     }, {
       "id" : "_WAUHZLG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_password"
+      "name" : "connection_dbtest_password"
     }, {
       "id" : "_WAUHY7G7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_user"
+      "name" : "connection_dbtest_user"
     }, {
       "id" : "_WAUHZbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_port"
+      "name" : "connection_dbtest_port"
     } ]
   }, {
     "contextName" : "DEV",
@@ -62,19 +62,19 @@
     "repoId" : "_V_20YLG7Ee-s18zJAw6ahw",
     "parameterList" : [ {
       "id" : "_WAUHYrG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_host"
+      "name" : "connection_dbtest_host"
     }, {
       "id" : "_WAUHYbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_database"
+      "name" : "connection_dbtest_database"
     }, {
       "id" : "_WAUHZLG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_password"
+      "name" : "connection_dbtest_password"
     }, {
       "id" : "_WAUHY7G7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_user"
+      "name" : "connection_dbtest_user"
     }, {
       "id" : "_WAUHZbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_port"
+      "name" : "connection_dbtest_port"
     } ]
   }, {
     "contextName" : "TEST",
@@ -100,19 +100,19 @@
     "repoId" : "_V_20YLG7Ee-s18zJAw6ahw",
     "parameterList" : [ {
       "id" : "_WAUHYrG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_host"
+      "name" : "connection_dbtest_host"
     }, {
       "id" : "_WAUHYbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_database"
+      "name" : "connection_dbtest_database"
     }, {
       "id" : "_WAUHZLG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_password"
+      "name" : "connection_dbtest_password"
     }, {
       "id" : "_WAUHY7G7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_user"
+      "name" : "connection_dbtest_user"
     }, {
       "id" : "_WAUHZbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_port"
+      "name" : "connection_dbtest_port"
     } ]
   }, {
     "contextName" : "Default",
@@ -138,19 +138,19 @@
     "repoId" : "_V_20YLG7Ee-s18zJAw6ahw",
     "parameterList" : [ {
       "id" : "_WAUHYrG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_host"
+      "name" : "connection_dbtest_host"
     }, {
       "id" : "_WAUHYbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_database"
+      "name" : "connection_dbtest_database"
     }, {
       "id" : "_WAUHZLG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_password"
+      "name" : "connection_dbtest_password"
     }, {
       "id" : "_WAUHY7G7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_user"
+      "name" : "connection_dbtest_user"
     }, {
       "id" : "_WAUHZbG7Ee-s18zJAw6ahw",
-      "name" : "connection_dbtarget_test_port"
+      "name" : "connection_dbtest_port"
     } ]
   } ]
 }
