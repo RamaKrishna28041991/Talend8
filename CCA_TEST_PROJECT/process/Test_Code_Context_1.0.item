@@ -1,52 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="dbtarget_password" prompt="dbtarget_password?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdMLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_host" prompt="dbtarget_host?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdMbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_database" prompt="dbtarget_database?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdMrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_user" prompt="dbtarget_user?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdM7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_post" prompt="dbtarget_post?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdNLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_host" prompt="connection_dbtarget_test_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_database" prompt="connection_dbtarget_test_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_password" prompt="connection_dbtarget_test_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_user" prompt="connection_dbtarget_test_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzY7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_port" prompt="connection_dbtarget_test_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZLG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_host" prompt="connection_dbtest_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYLG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_database" prompt="connection_dbtest_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYbG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_password" prompt="connection_dbtest_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzYrG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_user" prompt="connection_dbtest_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzY7G8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_port" prompt="connection_dbtest_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZLG8Ee-s18zJAw6ahw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" name="dbtarget_password" prompt="dbtarget_password?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdNbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_host" prompt="dbtarget_host?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdNrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_database" prompt="dbtarget_database?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdN7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_user" prompt="dbtarget_user?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdOLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_post" prompt="dbtarget_post?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdObG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_host" prompt="connection_dbtarget_test_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_database" prompt="connection_dbtarget_test_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_password" prompt="connection_dbtarget_test_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZ7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_user" prompt="connection_dbtarget_test_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzaLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_port" prompt="connection_dbtarget_test_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzabG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_host" prompt="connection_dbtest_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZbG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_database" prompt="connection_dbtest_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZrG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_password" prompt="connection_dbtest_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzZ7G8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_user" prompt="connection_dbtest_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzaLG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_port" prompt="connection_dbtest_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzabG8Ee-s18zJAw6ahw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="TEST">
-    <contextParameter comment="" name="dbtarget_password" prompt="dbtarget_password?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdOrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_host" prompt="dbtarget_host?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdO7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_database" prompt="dbtarget_database?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdPLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_user" prompt="dbtarget_user?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdPbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_post" prompt="dbtarget_post?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdPrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_host" prompt="connection_dbtarget_test_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzarG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_database" prompt="connection_dbtarget_test_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gza7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_password" prompt="connection_dbtarget_test_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_user" prompt="connection_dbtarget_test_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_port" prompt="connection_dbtarget_test_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbrG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_host" prompt="connection_dbtest_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzarG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_database" prompt="connection_dbtest_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gza7G8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_password" prompt="connection_dbtest_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbLG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_user" prompt="connection_dbtest_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbbG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_port" prompt="connection_dbtest_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzbrG8Ee-s18zJAw6ahw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="dbtarget_password" prompt="dbtarget_password?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdP7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_host" prompt="dbtarget_host?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdQLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_database" prompt="dbtarget_database?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdQbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_user" prompt="dbtarget_user?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdQrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="dbtarget_post" prompt="dbtarget_post?" promptNeeded="false" repositoryContextId="_ZQ9dwKfAEe-cEoxdCI0KYA" type="id_String" value="" internalId="_DAYdQ7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_host" prompt="connection_dbtarget_test_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gzb7G8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_database" prompt="connection_dbtarget_test_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcLG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_password" prompt="connection_dbtarget_test_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcbG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_user" prompt="connection_dbtarget_test_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcrG8Ee-s18zJAw6ahw"/>
-    <contextParameter comment="" name="connection_dbtarget_test_port" prompt="connection_dbtarget_test_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gzc7G8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_host" prompt="connection_dbtest_host?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gzb7G8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_database" prompt="connection_dbtest_database?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcLG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_password" prompt="connection_dbtest_password?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcbG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_user" prompt="connection_dbtest_user?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6GzcrG8Ee-s18zJAw6ahw"/>
+    <contextParameter comment="" name="connection_dbtest_port" prompt="connection_dbtest_port?" promptNeeded="false" repositoryContextId="_V_20YLG7Ee-s18zJAw6ahw" type="id_String" value="" internalId="_T6Gzc7G8Ee-s18zJAw6ahw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -84,14 +64,14 @@
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="context.connection_dbtarget_test_host"/>
-    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="context.connection_dbtarget_test_port"/>
-    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="context.connection_dbtarget_test_database"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="context.connection_dbtest_host"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="context.connection_dbtest_port"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="context.connection_dbtest_host"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="context.connection_dbtarget_test_user"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:i8XcblFMiM/iHMA59S2qq2gReAE4vmwgWc4mprrSHYnkdFBOuXJ9NOvd1jhQ0dRmAgJP/AaH3oS9qhr/i9PMj7/pR2GA"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="context.connection_dbtest_user"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:4AlTUMVcY5zs4bqiQBpyRQhRnabz7Dp2V2Sy8UUayBpOMiZylU3u17DH1Ky5NtdISbFaXwu8wublMpqRTLw="/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;CCA_Configuration&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
@@ -149,13 +129,13 @@
   <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_dbtarget_test_host"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_dbtest_host"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_dbtarget_test_port"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_dbtest_port"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_dbtarget_test_database"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_dbtarget_test_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:I4ZvepmR0BkyovO3OAwY+RnUwMW+RQnZDFZiKsUmUNl9ZfQHhEWphNud5Jg47XkmovJVgRT1xfIqMiKJK6XysSUuPJ1J"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_dbtest_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_dbtest_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q7Cb5nncklXOjVvk1s9HsGCRwwHEMWjLjBwE0KrLGVRm1SqE+uqh/uPD6LCrnXZf0F2moOmquA0OwIXd4dA="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
