@@ -73,10 +73,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_Q-EagKfAEe-cEoxdCI0KYA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "_ZQ9dwKfAEe-cEoxdCI0KYA",
     "version" : "Latest",
     "type" : "context"

@@ -19,24 +19,5 @@
       "id" : "_bYB38afAEe-cEoxdCI0KYA",
       "name" : "dbtarget_user"
     } ]
-  }, {
-    "contextName" : "Default",
-    "repoId" : "_Q-EagKfAEe-cEoxdCI0KYA",
-    "parameterList" : [ {
-      "id" : "_T0gcIKfAEe-cEoxdCI0KYA",
-      "name" : "dbtarget_database"
-    }, {
-      "id" : "_Q-qQYKfAEe-cEoxdCI0KYA",
-      "name" : "dbtarget_host"
-    }, {
-      "id" : "_T0gcIqfAEe-cEoxdCI0KYA",
-      "name" : "dbtarget_password"
-    }, {
-      "id" : "_SR1vgKfAEe-cEoxdCI0KYA",
-      "name" : "dbtarget_post"
-    }, {
-      "id" : "_T0gcIafAEe-cEoxdCI0KYA",
-      "name" : "dbtarget_user"
-    } ]
   } ]
 }
