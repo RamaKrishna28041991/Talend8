@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Qy-9X7GvEe-gCdtgUYrrUw"/>
     <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Qy-9YLGvEe-gCdtgUYrrUw"/>
