@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hcLD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hcbD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hcrD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hc7D8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hdLD8Ee-q_5TdrAhhMg"/>
-  </context>
-  <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hdbD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hdrD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hd7D8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-heLD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hebD8Ee-q_5TdrAhhMg"/>
-  </context>
-  <context confirmationNeeded="false" hide="false" name="TEST">
-    <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-herD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-he7D8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_database" prompt="connection_dbtarget_database?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hfLD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_user" prompt="connection_dbtarget_user?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hfbD8Ee-q_5TdrAhhMg"/>
-    <contextParameter comment="" name="connection_dbtarget_password" prompt="connection_dbtarget_password?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hfrD8Ee-q_5TdrAhhMg"/>
-  </context>
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="connection_dbtarget_host" prompt="connection_dbtarget_host?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hf7D8Ee-q_5TdrAhhMg"/>
     <contextParameter comment="" name="connection_dbtarget_post" prompt="connection_dbtarget_post?" promptNeeded="false" repositoryContextId="_HRDz0LDuEe-uxdrKKZgzCg" type="id_String" value="" internalId="_Wk-hgLD8Ee-q_5TdrAhhMg"/>
