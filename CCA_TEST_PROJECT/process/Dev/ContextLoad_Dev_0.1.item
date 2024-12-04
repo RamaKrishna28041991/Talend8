@@ -245,8 +245,8 @@
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;D:/Artha/0. Project - Tasks/2. ContextLoad/DBConnections.xlsx&quot;"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:2SVubOZ5CqGjZ24drQs6HPWcndnfECS3SSj/BmbrHyl4Yd7+PZcDwIgAlw=="/>
-    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
-    <elementParameter field="TABLE" name="SHEETLIST">
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
+    <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;1&quot;" id="0"/>
       <elementValue elementRef="USE_REGEX" value="false" id="1"/>
     </elementParameter>
