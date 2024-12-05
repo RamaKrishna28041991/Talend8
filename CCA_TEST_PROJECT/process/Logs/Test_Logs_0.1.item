@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vR8lkLMtEe-4Trc3duuI2A"/>
     <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="HqX0DFK4TPOwSi1Yacxx-BhSTY014aWuBAzRj4WiqmPoUGe1FGRAODj2_NfSyAU_" internalId="_OvNdsLMuEe-ivtgpgLng5A"/>
   </context>
   <parameters>
@@ -210,7 +209,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;bearerToken&quot;" id="0"/>
-      <elementValue elementRef="VALUE" value="context.b" id="1"/>
+      <elementValue elementRef="VALUE" value="context.bearerToken" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1">
