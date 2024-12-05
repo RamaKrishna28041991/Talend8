@@ -135,12 +135,16 @@
     <elementParameter field="TEXT" name="configuration.dataset.resource" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.pathParams" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.queryParams" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="true"/>
+    <elementParameter field="TABLE" name="configuration.dataset.queryParams">
+      <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;environmentId&quot;" id="0"/>
+      <elementValue elementRef="configuration.dataset.queryParams[].value" value="62146eea35a00b1c46aae429" id="1"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="JSON" show="false"/>
+    <elementParameter field="MEMO" name="configuration.dataset.body.jsonValue" value="{&#xD;&#xA;&#xD;&#xA;}" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.body.params" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
     <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
