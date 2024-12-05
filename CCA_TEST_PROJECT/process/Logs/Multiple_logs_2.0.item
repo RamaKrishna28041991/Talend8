@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="RunID" prompt="RunID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="de0b9325-813a-4d0b-86cd-715ef18c4a12" internalId="_FlmW4KhDEe-sfLXeXvZE7g"/>
     <contextParameter comment="" name="envId" prompt="envId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_cWEPoKiTEe-sfLXeXvZE7g"/>
-    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="HqX0DFK4TPOwSi1Yacxx-BhSTY014aWuBAzRj4WiqmPoUGe1FGRAODj2_NfSyAU_" internalId="_4Mr2gLMuEe-ivtgpgLng5A"/>
+    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_4Mr2gLMuEe-ivtgpgLng5A"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
