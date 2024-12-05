@@ -253,9 +253,9 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_Id" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;executable&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;$.items[*].executable&quot;" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ExecutionPlan_name" id="2"/>
-      <elementValue elementRef="QUERY" value="&quot;name&quot;" id="3"/>
+      <elementValue elementRef="QUERY" value="&quot;$.items[*].name&quot;" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_Status" id="4"/>
       <elementValue elementRef="QUERY" value="&quot;$.items[*].chart.status&quot;" id="5"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_step_name" id="6"/>
