@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="RunID" prompt="RunID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="de0b9325-813a-4d0b-86cd-715ef18c4a12" internalId="_FlmW4KhDEe-sfLXeXvZE7g"/>
-    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_44LdgKhMEe-sfLXeXvZE7g"/>
+    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HqX0DFK4TPOwSi1Yacxx-BhSTY014aWuBAzRj4WiqmPoUGe1FGRAODj2_NfSyAU_" internalId="_44LdgKhMEe-sfLXeXvZE7g"/>
     <contextParameter comment="" name="envId" prompt="envId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_cWEPoKiTEe-sfLXeXvZE7g"/>
   </context>
   <parameters>
