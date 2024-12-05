@@ -261,7 +261,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_step_name" id="6"/>
       <elementValue elementRef="QUERY" value="&quot;chart.name&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_id" id="8"/>
-      <elementValue elementRef="QUERY" value="&quot;chart.flows[*].id&quot;" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;$.items[*].chart.flows[*].id&quot;" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
