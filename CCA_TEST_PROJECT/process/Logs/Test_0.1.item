@@ -161,7 +161,7 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:8SnCE1RfrIa+NT/4Y9r+UqQbOMV8zUxAma9PfKb9VRoDka9lZP8=" show="false"/>
-    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;((String)globalMap.get(&quot;bearerToken&quot;))&quot;"/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="((String)globalMap.get(&quot;bearerToken&quot;))"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
