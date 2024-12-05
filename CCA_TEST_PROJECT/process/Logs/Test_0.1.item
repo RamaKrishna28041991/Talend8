@@ -138,7 +138,7 @@
     <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="true"/>
     <elementParameter field="TABLE" name="configuration.dataset.queryParams">
       <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;environmentId&quot;" id="0"/>
-      <elementValue elementRef="configuration.dataset.queryParams[].value" value="62146eea35a00b1c46aae429" id="1"/>
+      <elementValue elementRef="configuration.dataset.queryParams[].value" value="context.envID" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers" show="false"/>
