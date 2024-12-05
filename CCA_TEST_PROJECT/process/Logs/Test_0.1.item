@@ -349,9 +349,9 @@
       <elementValue elementRef="HEADER_NAME" value="&quot;content-Type&quot;" id="2"/>
       <elementValue elementRef="HEADER_VALUE" value="application/json" id="3"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
-    <elementParameter field="TEXT" name="USR" value="&quot;ramakrishna.bussi@thinkartha.com&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PWD" value="enc:system.encryption.key.v1:q03wB6BvzIeceXdN3OyXtkO5amwPC+6iB4DdPZyVigWzpW6n60Wh/cv1GvXq5No=" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="true"/>
+    <elementParameter field="TEXT" name="USR" value="&quot;ramakrishna.bussi@thinkartha.com&quot;"/>
+    <elementParameter field="PASSWORD" name="PWD" value="enc:system.encryption.key.v1:q03wB6BvzIeceXdN3OyXtkO5amwPC+6iB4DdPZyVigWzpW6n60Wh/cv1GvXq5No="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TIMEOUT_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECT_TIMEOUT" value="30" show="false"/>
