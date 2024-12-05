@@ -136,10 +136,7 @@
     <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.pathParams" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="true"/>
-    <elementParameter field="TABLE" name="configuration.dataset.queryParams">
-      <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;environmentId&quot;" id="0"/>
-      <elementValue elementRef="configuration.dataset.queryParams[].value" value="context.envID" id="1"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="configuration.dataset.queryParams"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
