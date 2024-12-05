@@ -345,8 +345,8 @@
     <elementParameter field="CHECK" name="CREATE_DIRS" value="false" show="false"/>
     <elementParameter field="TABLE" name="HEADERS">
       <elementValue elementRef="HEADER_NAME" value="&quot;Authorization&quot;" id="0"/>
-      <elementValue elementRef="HEADER_VALUE" value="context.bearerToken" id="1"/>
-      <elementValue elementRef="HEADER_NAME" value="&quot;content-Type&quot;" id="2"/>
+      <elementValue elementRef="HEADER_VALUE" value="Bearer context.bearerToken" id="1"/>
+      <elementValue elementRef="HEADER_NAME" value="&quot;Content-Type&quot;" id="2"/>
       <elementValue elementRef="HEADER_VALUE" value="application/json" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="true"/>
