@@ -295,7 +295,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="finishTimestamp" id="14"/>
       <elementValue elementRef="QUERY" value="&quot;finishTimestamp&quot;" id="15"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="runtimeType" id="16"/>
-      <elementValue elementRef="QUERY" value="&quot;runtimeType&quot;" id="17"/>
+      <elementValue elementRef="QUERY" value="&quot;runtime.type&quot;" id="17"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="executionStatus" id="18"/>
       <elementValue elementRef="QUERY" value="&quot;executionStatus&quot;" id="19"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="errorMessage" id="20"/>
