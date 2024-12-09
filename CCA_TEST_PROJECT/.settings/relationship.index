@@ -19,6 +19,10 @@
     "id" : "_rPdssLZQEe-AItsIYaLWjg",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_sTxM4LZREe-AItsIYaLWjg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
