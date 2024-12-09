@@ -2,8 +2,8 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
   <TalendMetadata:GenericSchemaConnection xmi:id="_sTybALZREe-AItsIYaLWjg" comment="connectionComment" label="connectionLabel" dataPackage="_sTybAbZREe-AItsIYaLWjg"/>
   <TalendMetadata:GenericPackage xmi:id="_sTybAbZREe-AItsIYaLWjg" dataManager="_sTybALZREe-AItsIYaLWjg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sTybArZREe-AItsIYaLWjg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTybA7ZREe-AItsIYaLWjg" name="Task_Id" id="1683" label="Task_Id" length="36" precision="-1" sourceType="" talendType="id_String">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sTybArZREe-AItsIYaLWjg" id="_bk9wcLZVEe-AItsIYaLWjg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTybA7ZREe-AItsIYaLWjg" name="Task_Id" id="1683" label="Task_Id" length="36" precision="-1" sourceType="" talendType="id_String" key="true">
         <initialValue xmi:id="_sTybBLZREe-AItsIYaLWjg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTybBbZREe-AItsIYaLWjg" name="Task_Type" id="1684" label="Task_Type" length="36" precision="-1" sourceType="" talendType="id_String">
