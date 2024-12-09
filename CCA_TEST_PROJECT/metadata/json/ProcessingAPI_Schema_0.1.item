@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_72jNALZLEe-AItsIYaLWjg" name="ProcessingAPI_Schema" dataPackage="_72j0HLZLEe-AItsIYaLWjg" JSONFilePath="D:/Artha/0. Project - Tasks/1. LogsExtraction/JSONFilesOutput/Processing.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_72j0ELZLEe-AItsIYaLWjg" LimitBoucle="50" AbsoluteXPathQuery="$.items[*]">
+      <schemaTargets xmi:id="_72j0EbZLEe-AItsIYaLWjg" RelativeXPathQuery="executionId" TagName="executionId"/>
+      <schemaTargets xmi:id="_72j0ErZLEe-AItsIYaLWjg" RelativeXPathQuery="taskId" TagName="taskId"/>
+      <schemaTargets xmi:id="_72j0E7ZLEe-AItsIYaLWjg" RelativeXPathQuery="taskVersion" TagName="taskVersion"/>
+      <schemaTargets xmi:id="_72j0FLZLEe-AItsIYaLWjg" RelativeXPathQuery="executionType" TagName="executionType"/>
+      <schemaTargets xmi:id="_72j0FbZLEe-AItsIYaLWjg" RelativeXPathQuery="runStatus" TagName="runStatus"/>
+      <schemaTargets xmi:id="_72j0FrZLEe-AItsIYaLWjg" RelativeXPathQuery="startTimestamp" TagName="startTimestamp"/>
+      <schemaTargets xmi:id="_72j0F7ZLEe-AItsIYaLWjg" RelativeXPathQuery="triggerTimestamp" TagName="triggerTimestamp"/>
+      <schemaTargets xmi:id="_72j0GLZLEe-AItsIYaLWjg" RelativeXPathQuery="finishTimestamp" TagName="finishTimestamp"/>
+      <schemaTargets xmi:id="_72j0GbZLEe-AItsIYaLWjg" RelativeXPathQuery="runtimeType" TagName="runtimeType"/>
+      <schemaTargets xmi:id="_72j0GrZLEe-AItsIYaLWjg" RelativeXPathQuery="executionStatus" TagName="executionStatus"/>
+      <schemaTargets xmi:id="_72j0G7ZLEe-AItsIYaLWjg" RelativeXPathQuery="errorMessage" TagName="errorMessage"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_72j0HLZLEe-AItsIYaLWjg" name="default" dataManager="_72jNALZLEe-AItsIYaLWjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_72lpQLZLEe-AItsIYaLWjg" id="_waPhwLZLEe-AItsIYaLWjg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpQbZLEe-AItsIYaLWjg" label="executionId" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpQrZLEe-AItsIYaLWjg" label="taskId" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpQ7ZLEe-AItsIYaLWjg" label="taskVersion" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRLZLEe-AItsIYaLWjg" label="executionType" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRbZLEe-AItsIYaLWjg" label="runStatus" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRrZLEe-AItsIYaLWjg" label="startTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpR7ZLEe-AItsIYaLWjg" label="triggerTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSLZLEe-AItsIYaLWjg" label="finishTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSbZLEe-AItsIYaLWjg" label="runtimeType" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSrZLEe-AItsIYaLWjg" label="executionStatus" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpS7ZLEe-AItsIYaLWjg" label="errorMessage" length="84" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
