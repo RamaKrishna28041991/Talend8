@@ -257,15 +257,15 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="0"/>
-      <elementValue elementRef="QUERY" value="" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;executable&quot;" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Type" id="2"/>
-      <elementValue elementRef="QUERY" value="" id="3"/>
+      <elementValue elementRef="QUERY" value="&quot;runtime.type&quot;" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="4"/>
-      <elementValue elementRef="QUERY" value="" id="5"/>
+      <elementValue elementRef="QUERY" value="&quot;name&quot;" id="5"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Description" id="6"/>
-      <elementValue elementRef="QUERY" value="" id="7"/>
+      <elementValue elementRef="QUERY" value="&quot;workspace.description&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Project" id="8"/>
-      <elementValue elementRef="QUERY" value="" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;workspace.name&quot;" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
