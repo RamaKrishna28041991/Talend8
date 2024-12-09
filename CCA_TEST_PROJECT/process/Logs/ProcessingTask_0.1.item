@@ -289,17 +289,17 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="runStatus" id="8"/>
       <elementValue elementRef="QUERY" value="&quot;runStatus&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="startTimestamp" id="10"/>
-      <elementValue elementRef="QUERY" value="" id="11"/>
+      <elementValue elementRef="QUERY" value="&quot;startTimestamp&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="triggerTimestamp" id="12"/>
-      <elementValue elementRef="QUERY" value="" id="13"/>
+      <elementValue elementRef="QUERY" value="&quot;triggerTimestamp&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="finishTimestamp" id="14"/>
-      <elementValue elementRef="QUERY" value="" id="15"/>
+      <elementValue elementRef="QUERY" value="&quot;finishTimestamp&quot;" id="15"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="runtimeType" id="16"/>
-      <elementValue elementRef="QUERY" value="" id="17"/>
+      <elementValue elementRef="QUERY" value="&quot;runtimeType&quot;" id="17"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="executionStatus" id="18"/>
-      <elementValue elementRef="QUERY" value="" id="19"/>
+      <elementValue elementRef="QUERY" value="&quot;executionStatus&quot;" id="19"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="errorMessage" id="20"/>
-      <elementValue elementRef="QUERY" value="" id="21"/>
+      <elementValue elementRef="QUERY" value="&quot;errorMessage&quot;" id="21"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
