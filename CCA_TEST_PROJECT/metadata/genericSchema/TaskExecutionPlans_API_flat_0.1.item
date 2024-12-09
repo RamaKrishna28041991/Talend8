@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Nw0WAbZTEe-AItsIYaLWjg" dataPackage="_Nw0WArZTEe-AItsIYaLWjg"/>
+  <TalendMetadata:GenericPackage xmi:id="_Nw0WArZTEe-AItsIYaLWjg" dataManager="_Nw0WAbZTEe-AItsIYaLWjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Nw0WA7ZTEe-AItsIYaLWjg" id="_Nw0WALZTEe-AItsIYaLWjg" label="row">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WBLZTEe-AItsIYaLWjg" label="executable" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WBbZTEe-AItsIYaLWjg" label="items_name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WBrZTEe-AItsIYaLWjg" label="workspace_id" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WB7ZTEe-AItsIYaLWjg" label="workspace_name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WCLZTEe-AItsIYaLWjg" label="owner" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WCbZTEe-AItsIYaLWjg" label="type" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WCrZTEe-AItsIYaLWjg" label="environment_id" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WC7ZTEe-AItsIYaLWjg" label="environment_name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WDLZTEe-AItsIYaLWjg" label="default" length="-1" precision="-1" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WDbZTEe-AItsIYaLWjg" label="workspace_description" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WDrZTEe-AItsIYaLWjg" label="items_description" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WD7ZTEe-AItsIYaLWjg" label="chart_id" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WELZTEe-AItsIYaLWjg" label="chart_name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WEbZTEe-AItsIYaLWjg" label="taskIds_1" length="-1" precision="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WErZTEe-AItsIYaLWjg" label="taskIds_2" length="-1" precision="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WE7ZTEe-AItsIYaLWjg" label="taskIds_3" length="-1" precision="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WFLZTEe-AItsIYaLWjg" label="taskIds_4" length="-1" precision="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WFbZTEe-AItsIYaLWjg" label="taskIds_5" length="-1" precision="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WFrZTEe-AItsIYaLWjg" label="note" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WF7ZTEe-AItsIYaLWjg" label="status" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WGLZTEe-AItsIYaLWjg" label="flows_id" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WGbZTEe-AItsIYaLWjg" label="flows_name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WGrZTEe-AItsIYaLWjg" label="version" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WG7ZTEe-AItsIYaLWjg" label="destination" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WHLZTEe-AItsIYaLWjg" label="workspaceId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WHbZTEe-AItsIYaLWjg" label="limit" length="-1" precision="-1" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WHrZTEe-AItsIYaLWjg" label="offset" length="-1" precision="-1" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nw0WH7ZTEe-AItsIYaLWjg" label="total" length="-1" precision="-1" talendType="id_Double"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
