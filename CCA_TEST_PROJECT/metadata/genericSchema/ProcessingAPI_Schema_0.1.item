@@ -27,10 +27,10 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcobZZEe-AItsIYaLWjg" name="finishTimestamp" label="finishTimestamp" length="30" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJcorZZEe-AItsIYaLWjg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJco7ZZEe-AItsIYaLWjg" name="runtimeType" label="runtimeType" length="13" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJco7ZZEe-AItsIYaLWjg" name="runtimeType" label="runtimeType" length="24" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJcpLZZEe-AItsIYaLWjg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcpbZZEe-AItsIYaLWjg" name="executionStatus" label="executionStatus" length="17" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcpbZZEe-AItsIYaLWjg" name="executionStatus" label="executionStatus" length="24" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJcprZZEe-AItsIYaLWjg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcp7ZZEe-AItsIYaLWjg" name="errorMessage" label="errorMessage" length="65535" sourceType="TEXT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
