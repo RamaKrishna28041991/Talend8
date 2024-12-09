@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_OvNdsLMuEe-ivtgpgLng5A"/>
     <contextParameter comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="62146eea35a00b1c46aae429" internalId="_uxIasLMxEe-ivtgpgLng5A"/>
@@ -338,88 +338,37 @@
       <column comment="" key="false" length="84" name="errorMessage" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
-    <elementParameter field="TABLE" name="CRITERIA">
-      <elementValue elementRef="COLNAME" value="taskId" id="0"/>
-      <elementValue elementRef="SORT" value="alpha" id="1"/>
-      <elementValue elementRef="ORDER" value="asc" id="2"/>
-      <elementValue elementRef="COLNAME" value="startTimestamp" id="3"/>
-      <elementValue elementRef="SORT" value="alpha" id="4"/>
-      <elementValue elementRef="ORDER" value="desc" id="5"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
-    <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;D:/Artha/Talend-Studio-20240527_1700-V8.0.1/workspace/temp&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CREATEDIR" value="true" show="false"/>
-    <elementParameter field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" value="1000000" show="false"/>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="560" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_KFBlQLZJEe-AItsIYaLWjg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tSortRow_1">
-      <column comment="" key="false" length="36" name="executionId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="taskId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="taskVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="executionType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="runStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="startTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="runtimeType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="17" name="executionStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="84" name="errorMessage" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="executionId" id="0"/>
-      <elementValue elementRef="LENGTH" value="10" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="taskId" id="2"/>
-      <elementValue elementRef="LENGTH" value="10" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="taskVersion" id="4"/>
-      <elementValue elementRef="LENGTH" value="10" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="executionType" id="6"/>
-      <elementValue elementRef="LENGTH" value="10" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="runStatus" id="8"/>
-      <elementValue elementRef="LENGTH" value="10" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="startTimestamp" id="10"/>
-      <elementValue elementRef="LENGTH" value="10" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="triggerTimestamp" id="12"/>
-      <elementValue elementRef="LENGTH" value="10" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="finishTimestamp" id="14"/>
-      <elementValue elementRef="LENGTH" value="10" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="runtimeType" id="16"/>
-      <elementValue elementRef="LENGTH" value="10" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="executionStatus" id="18"/>
-      <elementValue elementRef="LENGTH" value="10" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="errorMessage" id="20"/>
-      <elementValue elementRef="LENGTH" value="10" id="21"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tLogRow_2">
-      <column comment="" key="false" length="36" name="executionId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="taskId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="taskVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="executionType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="runStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="startTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="runtimeType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="17" name="executionStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="84" name="errorMessage" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="executionId" type="id_String" nullable="true"/>
+        <mapperTableEntries name="taskId" type="id_String" nullable="true"/>
+        <mapperTableEntries name="taskVersion" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="executionType" type="id_String" nullable="true"/>
+        <mapperTableEntries name="runStatus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="startTimestamp" type="id_String" nullable="true"/>
+        <mapperTableEntries name="triggerTimestamp" type="id_String" nullable="true"/>
+        <mapperTableEntries name="finishTimestamp" type="id_String" nullable="true"/>
+        <mapperTableEntries name="runtimeType" type="id_String" nullable="true"/>
+        <mapperTableEntries name="executionStatus" type="id_String" nullable="true"/>
+        <mapperTableEntries name="errorMessage" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tHTTPClient_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -432,13 +381,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tSortRow_1">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tLogRow_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
