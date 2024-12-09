@@ -287,7 +287,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="executionType" id="6"/>
       <elementValue elementRef="QUERY" value="&quot;executionType&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="runStatus" id="8"/>
-      <elementValue elementRef="QUERY" value="&quot;Status&quot;" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;status&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="startTimestamp" id="10"/>
       <elementValue elementRef="QUERY" value="&quot;startTimestamp&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="triggerTimestamp" id="12"/>
