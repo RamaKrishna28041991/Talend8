@@ -359,8 +359,8 @@
       <column comment="" key="false" length="6" name="executionType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="runStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="startTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="runtimeType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="executionStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="84" name="errorMessage" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -375,8 +375,8 @@
         <mapperTableEntries name="executionType" expression="row3.executionType " type="id_String" nullable="true"/>
         <mapperTableEntries name="runStatus" expression="row3.runStatus " type="id_String" nullable="true"/>
         <mapperTableEntries name="startTimestamp" expression="TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;, row3.startTimestamp) " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="triggerTimestamp" expression="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss.SSS'Z'&quot;,row3.triggerTimestamp)) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="finishTimestamp" expression="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss.SSS'Z'&quot;,row3.finishTimestamp)) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="triggerTimestamp" expression="TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;, row3.triggerTimestamp) " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="finishTimestamp" expression="TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;, row3.finishTimestamp) " type="id_Date" nullable="true"/>
         <mapperTableEntries name="runtimeType" expression="row3.runtimeType " type="id_String" nullable="true"/>
         <mapperTableEntries name="executionStatus" expression="row3.executionStatus " type="id_String" nullable="true"/>
         <mapperTableEntries name="errorMessage" expression="row3.errorMessage " type="id_String" nullable="true"/>
@@ -443,8 +443,8 @@
       <column comment="" key="false" length="6" name="executionType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="runStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="startTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="triggerTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="finishTimestamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="runtimeType" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="executionStatus" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="84" name="errorMessage" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
