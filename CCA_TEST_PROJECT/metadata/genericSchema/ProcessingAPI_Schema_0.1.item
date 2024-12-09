@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_2eJckLZZEe-AItsIYaLWjg" dataPackage="_2eJckbZZEe-AItsIYaLWjg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_2eJckLZZEe-AItsIYaLWjg" dataPackage="_2eJckbZZEe-AItsIYaLWjg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_2eJckbZZEe-AItsIYaLWjg" dataManager="_2eJckLZZEe-AItsIYaLWjg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2eJckrZZEe-AItsIYaLWjg" id="_2eIOcLZZEe-AItsIYaLWjg" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJck7ZZEe-AItsIYaLWjg" name="executionId" label="executionId" length="36" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
