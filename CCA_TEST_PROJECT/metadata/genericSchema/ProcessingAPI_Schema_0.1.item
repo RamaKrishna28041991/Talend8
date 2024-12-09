@@ -3,7 +3,7 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_2eJckLZZEe-AItsIYaLWjg" dataPackage="_2eJckbZZEe-AItsIYaLWjg"/>
   <TalendMetadata:GenericPackage xmi:id="_2eJckbZZEe-AItsIYaLWjg" dataManager="_2eJckLZZEe-AItsIYaLWjg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2eJckrZZEe-AItsIYaLWjg" id="_2eIOcLZZEe-AItsIYaLWjg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJck7ZZEe-AItsIYaLWjg" name="executionId" label="executionId" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJck7ZZEe-AItsIYaLWjg" name="executionId" label="executionId" length="36" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJclLZZEe-AItsIYaLWjg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJclbZZEe-AItsIYaLWjg" name="taskId" label="taskId" length="24" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
