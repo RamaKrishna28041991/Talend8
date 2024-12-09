@@ -93,21 +93,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_kQi5kKwaEe-9V90Efr8ElQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_n238gKwZEe-9V90Efr8ElQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_n238gKwZEe-9V90Efr8ElQ - CCA_Configuration",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_lCpCEKd-Ee-Tsbf5QQdRDg",
     "version" : "0.1",
     "type" : "job"
