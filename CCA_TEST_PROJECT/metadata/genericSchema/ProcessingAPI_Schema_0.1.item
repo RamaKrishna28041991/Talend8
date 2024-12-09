@@ -6,7 +6,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJck7ZZEe-AItsIYaLWjg" name="executionId" label="executionId" length="36" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJclLZZEe-AItsIYaLWjg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJclbZZEe-AItsIYaLWjg" name="taskId" label="taskId" length="24" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJclbZZEe-AItsIYaLWjg" name="taskId" label="taskId" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJclrZZEe-AItsIYaLWjg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcl7ZZEe-AItsIYaLWjg" name="taskVersion" label="taskVersion" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
