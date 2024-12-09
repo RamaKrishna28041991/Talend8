@@ -22,9 +22,9 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpQ7ZLEe-AItsIYaLWjg" label="taskVersion" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRLZLEe-AItsIYaLWjg" label="executionType" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRbZLEe-AItsIYaLWjg" label="runStatus" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRrZLEe-AItsIYaLWjg" label="startTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpR7ZLEe-AItsIYaLWjg" label="triggerTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSLZLEe-AItsIYaLWjg" label="finishTimestamp" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpRrZLEe-AItsIYaLWjg" label="startTimestamp" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpR7ZLEe-AItsIYaLWjg" label="triggerTimestamp" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSLZLEe-AItsIYaLWjg" label="finishTimestamp" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSbZLEe-AItsIYaLWjg" label="runtimeType" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpSrZLEe-AItsIYaLWjg" label="executionStatus" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_72lpS7ZLEe-AItsIYaLWjg" label="errorMessage" length="84" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
