@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "executable": "bc296bf0-b41e-4580-822f-e60deea6dc81",
+      "name": "LoadContext-Dev",
+      "workspace": {
+        "id": "663942ebd0f0701ab9abc335",
+        "name": "Personal",
+        "owner": "ramakrishna.bussi",
+        "type": "personal",
+        "environment": {
+          "id": "62146eea35a00b1c46aae429",
+          "name": "default",
+          "default": true
+        }
+      },
+      "description": "LoadContext_Dev_Plan",
+      "chart": {
+        "id": "dc7f9580-eb67-4aef-8b4f-d59cf961d7f3",
+        "name": "DecryptTheFile and Connect to DB",
+        "taskIds": [],
+        "note": "No Notes",
+        "status": "SUCCESS",
+        "flows": [
+          {
+            "id": "6750a1ef3ca1a37e84d3b68c",
+            "name": "ContextLoad_Dev_V2",
+            "version": "1.1",
+            "destination": "REMOTE_ENGINE",
+            "workspaceId": "638c8395a7099e6010e54693"
+          }
+        ]
+      }
+    },
+    {
+      "executable": "c17fb439-efb6-4b88-b569-0c1cfabf9c78",
+      "name": "test_execution_plan",
+      "workspace": {
+        "id": "638c8395a7099e6010e54693",
+        "name": "Manjunath Kapu",
+        "owner": "manju",
+        "type": "custom",
+        "environment": {
+          "id": "62146eea35a00b1c46aae429",
+          "name": "default",
+          "default": true
+        },
+        "description": ""
+      },
+      "description": "test_execution_plan",
+      "chart": {
+        "id": "1f4bc2be-a5b3-4698-9b99-2645cfaf29b1",
+        "name": "Step 1",
+        "taskIds": [],
+        "status": "SUCCESS",
+        "flows": [
+          {
+            "id": "62ca7b942b75366bc3ebbf2f",
+            "workspaceId": "62961eb1de760903bfff0e98"
+          },
+          {
+            "id": "6402526c0189f70e35cc5670",
+            "workspaceId": "638c8395a7099e6010e54693"
+          }
+        ]
+      }
+    }
+  ],
+  "limit": 100.0,
+  "offset": 0.0,
+  "total": 2.0
+}
