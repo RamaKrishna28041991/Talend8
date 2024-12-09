@@ -33,7 +33,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcpbZZEe-AItsIYaLWjg" name="executionStatus" label="executionStatus" length="17" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJcprZZEe-AItsIYaLWjg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcp7ZZEe-AItsIYaLWjg" name="errorMessage" label="errorMessage" length="10000" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2eJcp7ZZEe-AItsIYaLWjg" name="errorMessage" label="errorMessage" length="65535" sourceType="TEXT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_2eJcqLZZEe-AItsIYaLWjg"/>
       </feature>
     </ownedElement>
