@@ -345,7 +345,7 @@
       <elementValue elementRef="SORT" value="alpha" id="1"/>
       <elementValue elementRef="ORDER" value="asc" id="2"/>
       <elementValue elementRef="COLNAME" value="startTimestamp" id="3"/>
-      <elementValue elementRef="SORT" value="date" id="4"/>
+      <elementValue elementRef="SORT" value="alpha" id="4"/>
       <elementValue elementRef="ORDER" value="desc" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
