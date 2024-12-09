@@ -332,7 +332,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_step_name" id="6"/>
       <elementValue elementRef="QUERY" value="" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="8"/>
-      <elementValue elementRef="QUERY" value="&quot;Id&quot;" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;id&quot;" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
