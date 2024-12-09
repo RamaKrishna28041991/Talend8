@@ -10,5 +10,24 @@
       "id" : "_k0GJ0LMxEe-ivtgpgLng5A",
       "name" : "envID"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_uXz5gLZXEe-AItsIYaLWjg",
+    "parameterList" : [ {
+      "id" : "_uYICkrZXEe-AItsIYaLWjg",
+      "name" : "connection_dblogs_port"
+    }, {
+      "id" : "_uYIClLZXEe-AItsIYaLWjg",
+      "name" : "connection_dblogs_user"
+    }, {
+      "id" : "_uYICkbZXEe-AItsIYaLWjg",
+      "name" : "connection_dblogs_host"
+    }, {
+      "id" : "_uYICk7ZXEe-AItsIYaLWjg",
+      "name" : "connection_dblogs_database"
+    }, {
+      "id" : "_uYIClbZXEe-AItsIYaLWjg",
+      "name" : "connection_dblogs_password"
+    } ]
   } ]
 }
