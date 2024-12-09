@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>Maps/Jobs/Copy_of_FetchExecutionPlans</deletedFolders>
+  <deletedFolders>Maps/Jobs/ProcessingTask</deletedFolders>
+  <deletedItems id="_-IncoLZTEe-AItsIYaLWjg" path="Jobs/Copy_of_FetchExecutionPlans" type="MAPS"/>
+  <deletedItems id="_XbGHILZMEe-AItsIYaLWjg" path="Jobs/ProcessingTask" type="MAPS"/>
+</recyclebin:RecycleBin>
