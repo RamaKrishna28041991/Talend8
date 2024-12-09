@@ -31,9 +31,9 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_ghFQsLZLEe-AItsIYaLWjg",
+    "id" : "_72dtcLZLEe-AItsIYaLWjg - metadata",
     "version" : "Latest",
-    "type" : "mapper"
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
