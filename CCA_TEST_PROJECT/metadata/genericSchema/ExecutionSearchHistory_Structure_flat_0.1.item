@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_MJ9OIMZzEe-8UahjDUH8ig" dataPackage="_MJ9OIcZzEe-8UahjDUH8ig"/>
+  <TalendMetadata:GenericPackage xmi:id="_MJ9OIcZzEe-8UahjDUH8ig" dataManager="_MJ9OIMZzEe-8UahjDUH8ig">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MJ9OIsZzEe-8UahjDUH8ig" id="_MJ7Y8MZzEe-8UahjDUH8ig" label="row">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OI8ZzEe-8UahjDUH8ig" label="id" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OJMZzEe-8UahjDUH8ig" label="name" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OJcZzEe-8UahjDUH8ig" label="status" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OJsZzEe-8UahjDUH8ig" label="type" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OJ8ZzEe-8UahjDUH8ig" label="version" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OKMZzEe-8UahjDUH8ig" label="triggerType" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OKcZzEe-8UahjDUH8ig" label="triggerTime" length="-1" precision="-1" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OKsZzEe-8UahjDUH8ig" label="runStartTime" length="-1" precision="-1" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OK8ZzEe-8UahjDUH8ig" label="runEndTime" length="-1" precision="-1" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OLMZzEe-8UahjDUH8ig" label="operator" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OLcZzEe-8UahjDUH8ig" label="operatorName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OLsZzEe-8UahjDUH8ig" label="operatorType" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OL8ZzEe-8UahjDUH8ig" label="author" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OMMZzEe-8UahjDUH8ig" label="authorName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OMcZzEe-8UahjDUH8ig" label="authorType" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OMsZzEe-8UahjDUH8ig" label="accountId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OM8ZzEe-8UahjDUH8ig" label="environmentId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ONMZzEe-8UahjDUH8ig" label="workspaceId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ONcZzEe-8UahjDUH8ig" label="taskId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ONsZzEe-8UahjDUH8ig" label="artifactId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ON8ZzEe-8UahjDUH8ig" label="artifactName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OOMZzEe-8UahjDUH8ig" label="artifactVersion" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OOcZzEe-8UahjDUH8ig" label="artifactWorkspaceId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OOsZzEe-8UahjDUH8ig" label="destination" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OO8ZzEe-8UahjDUH8ig" label="engineId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OPMZzEe-8UahjDUH8ig" label="engineName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OPcZzEe-8UahjDUH8ig" label="engineVersion" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OPsZzEe-8UahjDUH8ig" label="logLevel" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OP8ZzEe-8UahjDUH8ig" label="javaVersion" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OQMZzEe-8UahjDUH8ig" label="javaVendor" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OQcZzEe-8UahjDUH8ig" label="jvmName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OQsZzEe-8UahjDUH8ig" label="executeDurationMs" length="-1" precision="-1" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OQ8ZzEe-8UahjDUH8ig" label="planId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ORMZzEe-8UahjDUH8ig" label="errorMessage" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ORcZzEe-8UahjDUH8ig" label="runProfileId" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9ORsZzEe-8UahjDUH8ig" label="runProfileName" length="-1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OR8ZzEe-8UahjDUH8ig" label="limit" length="-1" precision="-1" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OSMZzEe-8UahjDUH8ig" label="offset" length="-1" precision="-1" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJ9OScZzEe-8UahjDUH8ig" label="nextPageExists" length="-1" precision="-1" talendType="id_Boolean"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
