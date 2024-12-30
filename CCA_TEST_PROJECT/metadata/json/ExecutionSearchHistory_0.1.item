@@ -2,6 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
   <TalendJSON:JSONFileConnection xmi:id="_S_xhUMZxEe-8UahjDUH8ig" name="ExecutionSearchHistory" dataPackage="_S_xhXcZxEe-8UahjDUH8ig" JSONFilePath="D:/Artha/0. Project - Tasks/1. LogsExtraction/JSONFilesOutput/ExecutionSearchHistory.json" Encoding="UTF-8" readbyMode="JSONPATH">
     <schema xmi:id="_S_xhUcZxEe-8UahjDUH8ig" LimitBoucle="50" AbsoluteXPathQuery="$.items[*]">
+      <schemaTargets xmi:id="_PRJ9sMZ1Ee-8UahjDUH8ig" RelativeXPathQuery="id" TagName="Run_Id"/>
       <schemaTargets xmi:id="_S_xhUsZxEe-8UahjDUH8ig" RelativeXPathQuery="taskId" TagName="Task_Id"/>
       <schemaTargets xmi:id="_S_xhU8ZxEe-8UahjDUH8ig" RelativeXPathQuery="type" TagName="Task_Type"/>
       <schemaTargets xmi:id="_S_xhVMZxEe-8UahjDUH8ig" RelativeXPathQuery="planId" TagName="Plan_ID"/>
@@ -17,6 +18,7 @@
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_S_xhXcZxEe-8UahjDUH8ig" name="default" dataManager="_S_xhUMZxEe-8UahjDUH8ig">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_S_xhXsZxEe-8UahjDUH8ig" id="_oAIyMMZwEe-8UahjDUH8ig" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RNP28MZ1Ee-8UahjDUH8ig" label="Run_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhX8ZxEe-8UahjDUH8ig" label="Task_Id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYMZxEe-8UahjDUH8ig" label="Task_Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYcZxEe-8UahjDUH8ig" label="Plan_ID" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
