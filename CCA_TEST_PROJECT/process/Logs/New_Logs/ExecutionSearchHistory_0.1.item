@@ -242,38 +242,34 @@
       <elementValue elementRef="QUERY" value="" id="9"/>
       <elementValue elementRef="NODECHECK" value="false" id="10"/>
       <elementValue elementRef="ISARRAY" value="false" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ExecutionPlan_Name" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="12"/>
       <elementValue elementRef="QUERY" value="" id="13"/>
       <elementValue elementRef="NODECHECK" value="false" id="14"/>
       <elementValue elementRef="ISARRAY" value="false" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="16"/>
       <elementValue elementRef="QUERY" value="" id="17"/>
       <elementValue elementRef="NODECHECK" value="false" id="18"/>
       <elementValue elementRef="ISARRAY" value="false" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="20"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="20"/>
       <elementValue elementRef="QUERY" value="" id="21"/>
       <elementValue elementRef="NODECHECK" value="false" id="22"/>
       <elementValue elementRef="ISARRAY" value="false" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="24"/>
       <elementValue elementRef="QUERY" value="" id="25"/>
       <elementValue elementRef="NODECHECK" value="false" id="26"/>
       <elementValue elementRef="ISARRAY" value="false" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="28"/>
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="32"/>
       <elementValue elementRef="QUERY" value="" id="33"/>
       <elementValue elementRef="NODECHECK" value="false" id="34"/>
       <elementValue elementRef="ISARRAY" value="false" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="36"/>
       <elementValue elementRef="QUERY" value="" id="37"/>
       <elementValue elementRef="NODECHECK" value="false" id="38"/>
       <elementValue elementRef="ISARRAY" value="false" id="39"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="40"/>
-      <elementValue elementRef="QUERY" value="" id="41"/>
-      <elementValue elementRef="NODECHECK" value="false" id="42"/>
-      <elementValue elementRef="ISARRAY" value="false" id="43"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="0"/>
@@ -282,22 +278,20 @@
       <elementValue elementRef="QUERY" value="type" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_ID" id="4"/>
       <elementValue elementRef="QUERY" value="planId" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ExecutionPlan_Name" id="6"/>
-      <elementValue elementRef="QUERY" value="planName" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="8"/>
-      <elementValue elementRef="QUERY" value="name" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="10"/>
-      <elementValue elementRef="QUERY" value="status" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="12"/>
-      <elementValue elementRef="QUERY" value="runEndTime" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="14"/>
-      <elementValue elementRef="QUERY" value="triggerTime" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="16"/>
-      <elementValue elementRef="QUERY" value="version" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="18"/>
-      <elementValue elementRef="QUERY" value="errorMessage" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="20"/>
-      <elementValue elementRef="QUERY" value="triggerType" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="6"/>
+      <elementValue elementRef="QUERY" value="name" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="8"/>
+      <elementValue elementRef="QUERY" value="status" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="10"/>
+      <elementValue elementRef="QUERY" value="runEndTime" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="12"/>
+      <elementValue elementRef="QUERY" value="triggerTime" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="14"/>
+      <elementValue elementRef="QUERY" value="version" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="16"/>
+      <elementValue elementRef="QUERY" value="errorMessage" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="18"/>
+      <elementValue elementRef="QUERY" value="triggerType" id="19"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -311,7 +305,6 @@
       <column comment="" key="false" length="-1" name="Task_Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Type" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Plan_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ExecutionPlan_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Label" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Run_Status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_Run_Date" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -324,7 +317,6 @@
       <column comment="" key="false" length="-1" name="Task_Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Type" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Plan_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ExecutionPlan_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Label" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Run_Status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_Run_Date" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -357,22 +349,20 @@
       <elementValue elementRef="LENGTH" value="10" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Plan_ID" id="4"/>
       <elementValue elementRef="LENGTH" value="10" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ExecutionPlan_Name" id="6"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="6"/>
       <elementValue elementRef="LENGTH" value="10" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Label" id="8"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="8"/>
       <elementValue elementRef="LENGTH" value="10" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="10"/>
       <elementValue elementRef="LENGTH" value="10" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="12"/>
       <elementValue elementRef="LENGTH" value="10" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="14"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="14"/>
       <elementValue elementRef="LENGTH" value="10" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="16"/>
       <elementValue elementRef="LENGTH" value="10" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="18"/>
       <elementValue elementRef="LENGTH" value="10" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_State" id="20"/>
-      <elementValue elementRef="LENGTH" value="10" id="21"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -381,7 +371,6 @@
       <column comment="" key="false" length="-1" name="Task_Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Type" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Plan_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ExecutionPlan_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Task_Label" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Run_Status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_Run_Date" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
