@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>Maps/Jobs</deletedFolders>
   <deletedFolders>Maps/Jobs/Copy_of_FetchExecutionPlans</deletedFolders>
+  <deletedFolders>Maps/Jobs/FetchTasks</deletedFolders>
   <deletedFolders>Maps/Jobs/ProcessingTask</deletedFolders>
   <deletedFolders>Structures/Jobs</deletedFolders>
   <deletedFolders>Structures/Jobs/Copy_of_FetchExecutionPlans</deletedFolders>
   <deletedFolders>Structures/Jobs/Copy_of_FetchExecutionPlans/tHMap_1</deletedFolders>
+  <deletedItems id="_ghFQsLZLEe-AItsIYaLWjg" path="" type="MAPS"/>
   <deletedItems id="_-IncoLZTEe-AItsIYaLWjg" path="Jobs/Copy_of_FetchExecutionPlans" type="MAPS"/>
+  <deletedItems id="_QNgb4LZIEe-AItsIYaLWjg" path="Jobs/FetchTasks" type="MAPS"/>
   <deletedItems id="_XbGHILZMEe-AItsIYaLWjg" path="Jobs/ProcessingTask" type="MAPS"/>
   <deletedItems id="_V1L2ELZIEe-AItsIYaLWjg" path="Logs" type="PROCESS"/>
   <deletedItems id="_ONMTgLZUEe-AItsIYaLWjg" path="" type="STRUCTURES"/>
