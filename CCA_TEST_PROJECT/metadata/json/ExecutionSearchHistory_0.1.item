@@ -18,17 +18,17 @@
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_S_xhXcZxEe-8UahjDUH8ig" name="default" dataManager="_S_xhUMZxEe-8UahjDUH8ig">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_S_xhXsZxEe-8UahjDUH8ig" id="_oAIyMMZwEe-8UahjDUH8ig" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8HWAMlBEe-kVJu3eFXszA" name="Run_Id" label="Run_Id" length="24" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhX8ZxEe-8UahjDUH8ig" label="Task_Id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8HWAMlBEe-kVJu3eFXszA" name="Run_Id" label="Run_Id" length="255" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhX8ZxEe-8UahjDUH8ig" label="Task_Id" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYMZxEe-8UahjDUH8ig" label="Task_Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYsZxEe-8UahjDUH8ig" label="Task_Name" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhY8ZxEe-8UahjDUH8ig" label="Run_Status" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZMZxEe-8UahjDUH8ig" label="Last_Run_Date" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZcZxEe-8UahjDUH8ig" label="Last_Triggering_Date" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZsZxEe-8UahjDUH8ig" label="JobVersion" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZsZxEe-8UahjDUH8ig" label="JobVersion" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZ8ZxEe-8UahjDUH8ig" label="Error_Status" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhaMZxEe-8UahjDUH8ig" label="Trigger_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhacZxEe-8UahjDUH8ig" label="executeDurationMs" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhacZxEe-8UahjDUH8ig" label="executeDurationMs" length="10" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
