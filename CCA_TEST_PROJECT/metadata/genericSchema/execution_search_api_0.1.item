@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_b-P5wMlGEe-rq_dRKv7l-w" dataPackage="_b-P5wclGEe-rq_dRKv7l-w"/>
+  <TalendMetadata:GenericPackage xmi:id="_b-P5wclGEe-rq_dRKv7l-w" dataManager="_b-P5wMlGEe-rq_dRKv7l-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_b-P5wslGEe-rq_dRKv7l-w" id="_b-NdgMlGEe-rq_dRKv7l-w" label="execution_search_api">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5w8lGEe-rq_dRKv7l-w" name="run_id" label="run_id" length="255" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_b-P5xMlGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5xclGEe-rq_dRKv7l-w" name="task_id" label="task_id" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_b-P5xslGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5x8lGEe-rq_dRKv7l-w" name="task_type" label="task_type" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_b-P5yMlGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5yclGEe-rq_dRKv7l-w" name="task_name" label="task_name" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_b-P5yslGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5y8lGEe-rq_dRKv7l-w" name="run_status" label="run_status" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_b-P5zMlGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5zclGEe-rq_dRKv7l-w" name="last_run_date" label="last_run_date" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_b-P5zslGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5z8lGEe-rq_dRKv7l-w" name="last_triggering_date" label="last_triggering_date" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_b-P50MlGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P50clGEe-rq_dRKv7l-w" name="jobVersion" label="jobVersion" length="6" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_b-P50slGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P508lGEe-rq_dRKv7l-w" name="error_status" label="error_status" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_b-P51MlGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P51clGEe-rq_dRKv7l-w" name="trigger_type" label="trigger_type" length="6" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_b-P51slGEe-rq_dRKv7l-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P518lGEe-rq_dRKv7l-w" name="executeDurationMs" label="executeDurationMs" length="10" precision="3" sourceType="FLOAT" talendType="id_Float">
+        <initialValue xmi:id="_b-P52MlGEe-rq_dRKv7l-w"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
