@@ -278,13 +278,13 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_StartDate" id="6"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*].startDate&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="8"/>
-      <elementValue elementRef="QUERY" value="" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*].timeZone&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="10"/>
-      <elementValue elementRef="QUERY" value="" id="11"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*].atTimes.times&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="12"/>
-      <elementValue elementRef="QUERY" value="" id="13"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*].name&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
-      <elementValue elementRef="QUERY" value="" id="15"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*].timeout&quot;" id="15"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
