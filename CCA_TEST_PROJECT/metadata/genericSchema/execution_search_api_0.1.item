@@ -27,7 +27,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P50clGEe-rq_dRKv7l-w" name="jobVersion" label="jobVersion" length="6" sourceType="FLOAT" talendType="id_Float">
         <initialValue xmi:id="_b-P50slGEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P508lGEe-rq_dRKv7l-w" name="error_status" label="error_status" length="65535" sourceType="TEXT" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P508lGEe-rq_dRKv7l-w" name="error_message" label="error_message" length="65535" sourceType="TEXT" talendType="id_String">
         <initialValue xmi:id="_b-P51MlGEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P51clGEe-rq_dRKv7l-w" name="trigger_type" label="trigger_type" length="6" sourceType="VARCHAR" talendType="id_String">
