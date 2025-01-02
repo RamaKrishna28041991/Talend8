@@ -118,7 +118,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="long oneDayMillis = 24 * 60 * 60 * 1000;&#xA;&#xA;context.currentDate = System.currentTimeMillis() - oneDayMillis;&#xA;&#xA;System.out.println(&quot;Current Date in Milliseconds: &quot; + context.currentDate);&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//long oneDayMillis = 24 * 60 * 60 * 1000;&#xA;&#xA;context.currentDate = System.currentTimeMillis();&#xA;&#xA;System.out.println(&quot;Current Date in Milliseconds: &quot; + context.currentDate);&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
