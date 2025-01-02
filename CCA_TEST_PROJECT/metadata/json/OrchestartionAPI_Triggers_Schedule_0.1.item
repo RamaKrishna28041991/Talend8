@@ -10,6 +10,8 @@
       <schemaTargets xmi:id="_ImZWR8kwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].atTimes.times" TagName="Trigger_Specific"/>
       <schemaTargets xmi:id="_ImZWSMkwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].name" TagName="Trigger_Name"/>
       <schemaTargets xmi:id="_ImZWSckwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].timeout" TagName="Trigger_Timeout"/>
+      <schemaTargets xmi:id="_lwe_8MkyEe-kVJu3eFXszA" RelativeXPathQuery="executableId" TagName="Task_Type"/>
+      <schemaTargets xmi:id="_mEqgMMkyEe-kVJu3eFXszA" RelativeXPathQuery="executableType" TagName="executableType"/>
     </schema>
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_ImZWSskwEe-kVJu3eFXszA" name="default" dataManager="_ImZWQMkwEe-kVJu3eFXszA">
@@ -22,6 +24,8 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUckwEe-kVJu3eFXszA" label="Trigger_Specific" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUskwEe-kVJu3eFXszA" label="Trigger_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWU8kwEe-kVJu3eFXszA" label="Trigger_Timeout" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1ztsMkyEe-kVJu3eFXszA" label="Task_Type" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1ztsckyEe-kVJu3eFXszA" label="executableType" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
