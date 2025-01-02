@@ -267,6 +267,14 @@
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="32"/>
+      <elementValue elementRef="QUERY" value="" id="33"/>
+      <elementValue elementRef="NODECHECK" value="false" id="34"/>
+      <elementValue elementRef="ISARRAY" value="false" id="35"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="36"/>
+      <elementValue elementRef="QUERY" value="" id="37"/>
+      <elementValue elementRef="NODECHECK" value="false" id="38"/>
+      <elementValue elementRef="ISARRAY" value="false" id="39"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Schedule_ID" id="0"/>
@@ -285,6 +293,10 @@
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="16"/>
+      <elementValue elementRef="QUERY" value="&quot;executableId&quot;" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="18"/>
+      <elementValue elementRef="QUERY" value="&quot;executableType&quot;" id="19"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -303,6 +315,8 @@
       <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="24" name="Schedule_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -313,6 +327,8 @@
       <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -360,6 +376,14 @@
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="32"/>
+      <elementValue elementRef="QUERY" value="" id="33"/>
+      <elementValue elementRef="NODECHECK" value="false" id="34"/>
+      <elementValue elementRef="ISARRAY" value="false" id="35"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="36"/>
+      <elementValue elementRef="QUERY" value="" id="37"/>
+      <elementValue elementRef="NODECHECK" value="false" id="38"/>
+      <elementValue elementRef="ISARRAY" value="false" id="39"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Schedule_ID" id="0"/>
@@ -378,6 +402,10 @@
       <elementValue elementRef="QUERY" value="&quot;name&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
       <elementValue elementRef="QUERY" value="&quot;timeout&quot;" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="16"/>
+      <elementValue elementRef="QUERY" value="" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="18"/>
+      <elementValue elementRef="QUERY" value="" id="19"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -396,6 +424,8 @@
       <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="24" name="Schedule_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -406,6 +436,8 @@
       <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -441,6 +473,10 @@
       <elementValue elementRef="LENGTH" value="10" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
       <elementValue elementRef="LENGTH" value="10" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="16"/>
+      <elementValue elementRef="LENGTH" value="10" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="18"/>
+      <elementValue elementRef="LENGTH" value="10" id="19"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -454,6 +490,8 @@
       <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tHTTPClient_1">
