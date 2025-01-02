@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_ImZWQMkwEe-kVJu3eFXszA" name="OrchestartionAPI_Triggers_Schedule" dataPackage="_ImZWSskwEe-kVJu3eFXszA" JSONFilePath="D:/Artha/0. Project - Tasks/1. LogsExtraction/JSONFilesOutput/SchedulesSampleOutput.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_ImZWQckwEe-kVJu3eFXszA" LimitBoucle="50" AbsoluteXPathQuery="$.items[*]">
+      <schemaTargets xmi:id="_ImZWQskwEe-kVJu3eFXszA" RelativeXPathQuery="id" TagName="Schedule_ID"/>
+      <schemaTargets xmi:id="_ImZWQ8kwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].type" TagName="Trigger_Type"/>
+      <schemaTargets xmi:id="_ImZWRMkwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].interval" TagName="Interval"/>
+      <schemaTargets xmi:id="_ImZWRckwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].startDate" TagName="Trigger_StartDate"/>
+      <schemaTargets xmi:id="_ImZWRskwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].timeZone" TagName="Trigger_TimeZone"/>
+      <schemaTargets xmi:id="_ImZWR8kwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].atTimes.times" TagName="Trigger_Specific"/>
+      <schemaTargets xmi:id="_ImZWSMkwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].name" TagName="Trigger_Name"/>
+      <schemaTargets xmi:id="_ImZWSckwEe-kVJu3eFXszA" RelativeXPathQuery="triggers[*].timeout" TagName="Trigger_Timeout"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ImZWSskwEe-kVJu3eFXszA" name="default" dataManager="_ImZWQMkwEe-kVJu3eFXszA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ImZWS8kwEe-kVJu3eFXszA" id="_XabnwMkvEe-kVJu3eFXszA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTMkwEe-kVJu3eFXszA" label="Schedule_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTckwEe-kVJu3eFXszA" label="Trigger_Type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTskwEe-kVJu3eFXszA" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWT8kwEe-kVJu3eFXszA" label="Trigger_StartDate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUMkwEe-kVJu3eFXszA" label="Trigger_TimeZone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUckwEe-kVJu3eFXszA" label="Trigger_Specific" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUskwEe-kVJu3eFXszA" label="Trigger_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWU8kwEe-kVJu3eFXszA" label="Trigger_Timeout" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
