@@ -4,9 +4,9 @@
   <TalendMetadata:GenericPackage xmi:id="_AolBwclJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataManager="_AolBwMlJEe-rq_dRKv7l-w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AolBwslJEe-rq_dRKv7l-w" id="_47bI0MlIEe-rq_dRKv7l-w" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBw8lJEe-rq_dRKv7l-w" name="plan_id" label="plan_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="newColumn1" label="newColumn1" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="newColumn2" label="newColumn2" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="newColumn3" label="newColumn3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="plan_name" label="plan_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="workspace_id" label="workspace_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="owner" label="owner" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="newColumn4" label="newColumn4" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="newColumn5" label="newColumn5" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="newColumn6" label="newColumn6" talendType="id_String"/>
