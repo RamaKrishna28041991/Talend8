@@ -18,6 +18,7 @@
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_S_xhXcZxEe-8UahjDUH8ig" name="default" dataManager="_S_xhUMZxEe-8UahjDUH8ig">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_S_xhXsZxEe-8UahjDUH8ig" id="_oAIyMMZwEe-8UahjDUH8ig" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8HWAMlBEe-kVJu3eFXszA" name="Run_Id" label="Run_Id" length="24" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhX8ZxEe-8UahjDUH8ig" label="Task_Id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYMZxEe-8UahjDUH8ig" label="Task_Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhYsZxEe-8UahjDUH8ig" label="Task_Name" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
