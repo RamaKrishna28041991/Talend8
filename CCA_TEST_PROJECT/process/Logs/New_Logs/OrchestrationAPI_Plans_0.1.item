@@ -293,7 +293,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="owner" id="6"/>
       <elementValue elementRef="QUERY" value="&quot;workspace.owner&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="environment_id" id="8"/>
-      <elementValue elementRef="QUERY" value="&quot;environment.id&quot;" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;workspace.environment.id&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="plan_description" id="10"/>
       <elementValue elementRef="QUERY" value="&quot;description&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="plan_step_id" id="12"/>
