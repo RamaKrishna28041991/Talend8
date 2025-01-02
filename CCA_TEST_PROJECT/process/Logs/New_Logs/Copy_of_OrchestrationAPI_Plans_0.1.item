@@ -121,15 +121,10 @@
     <elementParameter field="MEMO_JAVA" name="CODE" value="long oneDayMillis = 24 * 60 * 60 * 1000;&#xA;&#xA;context.currentDate = System.currentTimeMillis() - oneDayMillis;&#xA;&#xA;System.out.println(&quot;Current Date in Milliseconds: &quot; + context.currentDate);&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJavaRow_1"/>
-  </node>
-  <node componentName="tContextDump" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tContextDump_1" show="false"/>
-    <elementParameter field="CHECK" name="HIDE_PASSWORD" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tContextDump_1">
-      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column comment="" key="false" length="-1" name="body" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="headers" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="status" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="HTTPClient" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="440" posY="160">
@@ -155,10 +150,8 @@
     <elementParameter field="TABLE" name="configuration.dataset.pathParams" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="true"/>
     <elementParameter field="TABLE" name="configuration.dataset.queryParams">
-      <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;environmentId&quot;" id="0"/>
-      <elementValue elementRef="configuration.dataset.queryParams[].value" value="context.envID" id="1"/>
-      <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;to&quot;" id="2"/>
-      <elementValue elementRef="configuration.dataset.queryParams[].value" value="context.currentDate" id="3"/>
+      <elementValue elementRef="configuration.dataset.queryParams[].key" value="&quot;to&quot;" id="0"/>
+      <elementValue elementRef="configuration.dataset.queryParams[].value" value="context.currentDate" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers" show="false"/>
@@ -247,10 +240,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tContextDump_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tContextDump_1" offsetLabelX="0" offsetLabelY="0" source="tContextDump_1" target="tHTTPClient_1">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tHTTPClient_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
@@ -260,11 +250,6 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tContextDump_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
