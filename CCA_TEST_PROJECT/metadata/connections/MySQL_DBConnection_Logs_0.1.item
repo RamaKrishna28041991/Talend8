@@ -15,7 +15,7 @@
     <parameters xmi:id="_epc8wsk7Ee-kVJu3eFXszA" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_DBConnection_Logs_Login"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_eqHEEMk7Ee-kVJu3eFXszA" name="logs" dataManager="_epc8wMk7Ee-kVJu3eFXszA">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_MhNvkMk8Ee-kVJu3eFXszA" name="execution_search_api" id="_MhL6YMk8Ee-kVJu3eFXszA" label="execution_search_api" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_MhNvkMk8Ee-kVJu3eFXszA" name="execution_search_api" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_MhL6YMk8Ee-kVJu3eFXszA" label="execution_search_api" tableType="TABLE">
       <feature xsi:type="relational:TdColumn" xmi:id="_MhNvkck8Ee-kVJu3eFXszA" name="Task_Id" label="Task_Id" length="24" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_MhNvksk8Ee-kVJu3eFXszA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_MhNvk8k8Ee-kVJu3eFXszA" language="COLUMN_DEF"/>
