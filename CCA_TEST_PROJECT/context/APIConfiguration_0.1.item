@@ -2,5 +2,5 @@
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_g0KGULMtEe-4Trc3duuI2A" confirmationNeeded="false" hide="false" name="Default">
   <contextParameter xmi:id="_g0KGUbMtEe-4Trc3duuI2A" comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-"/>
   <contextParameter xmi:id="_k0GJ0LMxEe-ivtgpgLng5A" comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="62146eea35a00b1c46aae429"/>
-  <contextParameter xmi:id="_Lmte4MkrEe-kVJu3eFXszA" comment="" name="currentDate" prompt="currentDate?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+  <contextParameter xmi:id="_Lmte4MkrEe-kVJu3eFXszA" comment="" name="currentDate" prompt="currentDate?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="0"/>
 </talendfile:ContextType>
