@@ -584,68 +584,74 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/bills/bill/line&quot;" show="false"/>
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.items[*]&quot;"/>
     <elementParameter field="TABLE" name="MAPPING" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Id" id="0"/>
       <elementValue elementRef="QUERY" value="" id="1"/>
       <elementValue elementRef="NODECHECK" value="false" id="2"/>
       <elementValue elementRef="ISARRAY" value="false" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Type" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="4"/>
       <elementValue elementRef="QUERY" value="" id="5"/>
       <elementValue elementRef="NODECHECK" value="false" id="6"/>
       <elementValue elementRef="ISARRAY" value="false" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Name" id="8"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Type" id="8"/>
       <elementValue elementRef="QUERY" value="" id="9"/>
       <elementValue elementRef="NODECHECK" value="false" id="10"/>
       <elementValue elementRef="ISARRAY" value="false" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Name" id="12"/>
       <elementValue elementRef="QUERY" value="" id="13"/>
       <elementValue elementRef="NODECHECK" value="false" id="14"/>
       <elementValue elementRef="ISARRAY" value="false" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="16"/>
       <elementValue elementRef="QUERY" value="" id="17"/>
       <elementValue elementRef="NODECHECK" value="false" id="18"/>
       <elementValue elementRef="ISARRAY" value="false" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="20"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="20"/>
       <elementValue elementRef="QUERY" value="" id="21"/>
       <elementValue elementRef="NODECHECK" value="false" id="22"/>
       <elementValue elementRef="ISARRAY" value="false" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="24"/>
       <elementValue elementRef="QUERY" value="" id="25"/>
       <elementValue elementRef="NODECHECK" value="false" id="26"/>
       <elementValue elementRef="ISARRAY" value="false" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="28"/>
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="32"/>
       <elementValue elementRef="QUERY" value="" id="33"/>
       <elementValue elementRef="NODECHECK" value="false" id="34"/>
       <elementValue elementRef="ISARRAY" value="false" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="executeDurationMs" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="36"/>
       <elementValue elementRef="QUERY" value="" id="37"/>
       <elementValue elementRef="NODECHECK" value="false" id="38"/>
       <elementValue elementRef="ISARRAY" value="false" id="39"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="executeDurationMs" id="40"/>
+      <elementValue elementRef="QUERY" value="" id="41"/>
+      <elementValue elementRef="NODECHECK" value="false" id="42"/>
+      <elementValue elementRef="ISARRAY" value="false" id="43"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;taskId&quot;" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Type" id="2"/>
-      <elementValue elementRef="QUERY" value="&quot;type&quot;" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Name" id="4"/>
-      <elementValue elementRef="QUERY" value="&quot;name&quot;" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="6"/>
-      <elementValue elementRef="QUERY" value="&quot;status&quot;" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="8"/>
-      <elementValue elementRef="QUERY" value="&quot;runEndTime&quot;" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="10"/>
-      <elementValue elementRef="QUERY" value="&quot;triggerTime&quot;" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="12"/>
-      <elementValue elementRef="QUERY" value="&quot;version&quot;" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="14"/>
-      <elementValue elementRef="QUERY" value="&quot;errorMessage&quot;" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="16"/>
-      <elementValue elementRef="QUERY" value="&quot;triggerType&quot;" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="executeDurationMs" id="18"/>
-      <elementValue elementRef="QUERY" value="&quot;executeDurationMs&quot;" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Id" id="0"/>
+      <elementValue elementRef="QUERY" value="" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Id" id="2"/>
+      <elementValue elementRef="QUERY" value="&quot;taskId&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Type" id="4"/>
+      <elementValue elementRef="QUERY" value="&quot;type&quot;" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Task_Name" id="6"/>
+      <elementValue elementRef="QUERY" value="&quot;name&quot;" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Run_Status" id="8"/>
+      <elementValue elementRef="QUERY" value="&quot;status&quot;" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Run_Date" id="10"/>
+      <elementValue elementRef="QUERY" value="&quot;runEndTime&quot;" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Last_Triggering_Date" id="12"/>
+      <elementValue elementRef="QUERY" value="&quot;triggerTime&quot;" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobVersion" id="14"/>
+      <elementValue elementRef="QUERY" value="&quot;version&quot;" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Error_Status" id="16"/>
+      <elementValue elementRef="QUERY" value="" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="18"/>
+      <elementValue elementRef="QUERY" value="&quot;triggerType&quot;" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="executeDurationMs" id="20"/>
+      <elementValue elementRef="QUERY" value="&quot;executeDurationMs&quot;" id="21"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -657,28 +663,30 @@
     <elementParameter field="TEXT" name="LABEL" value="ExecutionSearch_Fields"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tExtractJSONFields_1">
-      <column comment="" key="false" length="24" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Run_Id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="Task_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="Task_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="Run_Status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="Last_Run_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="Last_Triggering_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="JobVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Last_Run_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Last_Triggering_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="JobVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Error_Status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="executeDurationMs" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="executeDurationMs" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="24" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Run_Id" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Task_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="Task_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="Task_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="Run_Status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="Last_Run_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="Last_Triggering_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="JobVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Last_Run_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Last_Triggering_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="JobVersion" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Error_Status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="executeDurationMs" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="executeDurationMs" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1353,6 +1361,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tConvertType_2" offsetLabelX="0" offsetLabelY="0" source="tConvertType_2" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Run_Id" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
   </connection>
