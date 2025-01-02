@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_AolBwMlJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataPackage="_AolBwclJEe-rq_dRKv7l-w" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_AolBwMlJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataPackage="_AolBwclJEe-rq_dRKv7l-w"/>
   <TalendMetadata:GenericPackage xmi:id="_AolBwclJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataManager="_AolBwMlJEe-rq_dRKv7l-w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AolBwslJEe-rq_dRKv7l-w" id="_47bI0MlIEe-rq_dRKv7l-w" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBw8lJEe-rq_dRKv7l-w" name="plan_id" label="plan_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="plan_name" label="plan_name" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="workspace_id" label="workspace_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="owner" label="owner" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="plan_type" label="plan_type" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="environment_id" label="environment_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="plan_description" label="plan_description" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="plan_step_id" label="plan_step_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tUN_sMlJEe-rq_dRKv7l-w" name="plan_step_name" label="plan_step_name" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tXIJwMlJEe-rq_dRKv7l-w" name="plan_step_status" label="plan_step_status" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tbOmoMlJEe-rq_dRKv7l-w" name="task_id" label="task_id" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2W4TAMlJEe-rq_dRKv7l-w" name="task_name" label="task_name" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2YxwcMlJEe-rq_dRKv7l-w" name="task_version" label="task_version" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2cfy0MlJEe-rq_dRKv7l-w" name="newColumn2" label="newColumn2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBw8lJEe-rq_dRKv7l-w" name="plan_id" label="plan_id" length="64" sourceType="VARCHAR" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="plan_name" label="plan_name" length="255" sourceType="TINYTEXT" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="workspace_id" label="workspace_id" length="64" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="owner" label="owner" length="255" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="plan_type" label="plan_type" length="24" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="environment_id" label="environment_id" length="64" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="plan_description" label="plan_description" length="255" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="plan_step_id" label="plan_step_id" length="64" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tUN_sMlJEe-rq_dRKv7l-w" name="plan_step_name" label="plan_step_name" length="255" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tXIJwMlJEe-rq_dRKv7l-w" name="plan_step_status" label="plan_step_status" length="24" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tbOmoMlJEe-rq_dRKv7l-w" name="task_id" label="task_id" length="64" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2W4TAMlJEe-rq_dRKv7l-w" name="task_name" label="task_name" length="255" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2YxwcMlJEe-rq_dRKv7l-w" name="task_version" label="task_version" length="7" talendType="id_String"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
