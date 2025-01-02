@@ -122,7 +122,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="TEXT" name="LABEL" value="Orchestration API"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.us.cloud.talend.com /orchestration/executables/tasks"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.us.cloud.talend.com/orchestration/executables/tasks"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="Bearer"/>
     <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.bearerToken" value="enc:system.encryption.key.v1:1VvEmOd0oVis8+zy9wYORTkHfra5c9TdGfmjr+jSeuShXsOPMtF+SS+uxTqPVz6gLcz0qdXzyliyXJ99x7M9eUj1"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS" show="false"/>
