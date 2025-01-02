@@ -830,8 +830,28 @@
   <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1160" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="Task_Id" id="0"/>
-      <elementValue elementRef="INPUT_COLUMN" value="Task_Id" id="1"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Run_Id" id="0"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Run_Id" id="1"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Task_Id" id="2"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Task_Id" id="3"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Task_Type" id="4"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Task_Type" id="5"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Plan_ID" id="6"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Plan_ID" id="7"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Task_Name" id="8"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Task_Name" id="9"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Run_Status" id="10"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Run_Status" id="11"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Last_Run_Date" id="12"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Last_Run_Date" id="13"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="JobVersion" id="14"/>
+      <elementValue elementRef="INPUT_COLUMN" value="JobVersion" id="15"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Error_Status" id="16"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Error_Status" id="17"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Trigger_State" id="18"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Trigger_State" id="19"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="executeDurationMs" id="20"/>
+      <elementValue elementRef="INPUT_COLUMN" value="executeDurationMs" id="21"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="Last_Triggering_Date" id="0"/>
