@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/Logs/Final</deletedFolders>
+  <deletedItems id="_0y_McLDhEe-Um6BpcDeaJg" path="Logs" type="PROCESS"/>
+  <deletedItems id="_Nrj1ILJ6Ee-4Trc3duuI2A" path="Logs" type="PROCESS"/>
+  <deletedItems id="_V1L2ELZIEe-AItsIYaLWjg" path="Logs" type="PROCESS"/>
+  <deletedItems id="_X91joLZTEe-AItsIYaLWjg" path="Logs" type="PROCESS"/>
+  <deletedItems id="_nWxFoLDmEe-HlsU36dgfuA" path="Logs" type="PROCESS"/>
+  <deletedItems id="_t4vp0LZVEe-AItsIYaLWjg" path="Logs" type="PROCESS"/>
+  <deletedItems id="_z9gbILNAEe-ivtgpgLng5A" path="Logs" type="PROCESS"/>
   <deletedItems id="_9GgRoLZOEe-AItsIYaLWjg" path="Logs/Final" type="PROCESS"/>
   <deletedItems id="_BHDZYLNDEe-ivtgpgLng5A" path="Logs/Final" type="PROCESS"/>
   <deletedItems id="_CT93wL4gEe-MOrx51xr6zg" path="Logs/Final" type="PROCESS"/>
