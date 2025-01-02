@@ -280,7 +280,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="8"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="10"/>
-      <elementValue elementRef="QUERY" value="&quot;triggers[*].atTimes.times&quot;" id="11"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="12"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
@@ -373,7 +373,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="8"/>
       <elementValue elementRef="QUERY" value="&quot;timeZone&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="10"/>
-      <elementValue elementRef="QUERY" value="" id="11"/>
+      <elementValue elementRef="QUERY" value="&quot;atTimes.times&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="12"/>
       <elementValue elementRef="QUERY" value="&quot;name&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="14"/>
