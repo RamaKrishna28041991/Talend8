@@ -831,11 +831,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="OUTPUT_COLUMN" value="Task_Id" id="0"/>
-      <elementValue elementRef="INPUT_COLUMN" value="Run_Id" id="1"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Task_Id" id="1"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="Last_Triggering_Date" id="0"/>
-      <elementValue elementRef="FUNCTION" value="first" id="1"/>
+      <elementValue elementRef="FUNCTION" value="max" id="1"/>
       <elementValue elementRef="INPUT_COLUMN" value="Last_Triggering_Date" id="2"/>
       <elementValue elementRef="IGNORE_NULL" value="false" id="3"/>
     </elementParameter>
