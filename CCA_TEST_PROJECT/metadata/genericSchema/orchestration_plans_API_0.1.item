@@ -10,7 +10,10 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="plan_type" label="plan_type" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="environment_id" label="environment_id" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="plan_description" label="plan_description" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="newColumn7" label="newColumn7" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="plan_step_id" label="plan_step_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tUN_sMlJEe-rq_dRKv7l-w" name="plan_step_name" label="plan_step_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tXIJwMlJEe-rq_dRKv7l-w" name="plan_step_status" label="plan_step_status" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tbOmoMlJEe-rq_dRKv7l-w" name="newColumn2" label="newColumn2" talendType="id_String"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
