@@ -804,8 +804,8 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
     <elementParameter field="TABLE" name="CRITERIA">
       <elementValue elementRef="COLNAME" value="Last_Triggering_Date" id="0"/>
-      <elementValue elementRef="SORT" value="alpha" id="1"/>
-      <elementValue elementRef="ORDER" value="asc" id="2"/>
+      <elementValue elementRef="SORT" value="date" id="1"/>
+      <elementValue elementRef="ORDER" value="desc" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;D:/Artha/Talend-Studio-20240527_1700-V8.0.1/workspace/temp&quot;" show="false"/>
