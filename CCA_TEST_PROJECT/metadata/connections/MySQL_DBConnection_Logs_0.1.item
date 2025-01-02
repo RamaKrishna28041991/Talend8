@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
   <TalendMetadata:DatabaseConnection xmi:id="_epc8wMk7Ee-kVJu3eFXszA" name="MySQL_DBConnection_Logs" id="_FFtcwMk7Ee-kVJu3eFXszA" label="MySQL_DBConnection_Logs" dataPackage="_eqHEEMk7Ee-kVJu3eFXszA" ContextMode="true" ContextId="_ecoowMk7Ee-kVJu3eFXszA" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/logs?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.MySQL_DBConnection_Logs_Port" Username="context.MySQL_DBConnection_Logs_Login" Password="context.MySQL_DBConnection_Logs_Password" ServerName="context.MySQL_DBConnection_Logs_Server" DatasourceName="" FileFieldName="" SID="context.MySQL_DBConnection_Logs_Database" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySQL_DBConnection_Logs_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_epc8wck7Ee-kVJu3eFXszA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_epupkMk7Ee-kVJu3eFXszA" tag="package filter" value=""/>
@@ -14,63 +14,5 @@
     <taggedValue xmi:id="_ep8sAsk7Ee-kVJu3eFXszA" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_epc8wsk7Ee-kVJu3eFXszA" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_DBConnection_Logs_Login"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_eqHEEMk7Ee-kVJu3eFXszA" name="logs" dataManager="_epc8wMk7Ee-kVJu3eFXszA">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_rt9l0MlEEe-rq_dRKv7l-w" name="execution_search_api" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_rt57cMlEEe-rq_dRKv7l-w" label="execution_search_api" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l0clEEe-rq_dRKv7l-w" name="run_id" label="run_id" length="255" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
-        <taggedValue xmi:id="_rt9l0slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l08lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l1MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l1clEEe-rq_dRKv7l-w" name="task_id" label="task_id" length="255" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l1slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l18lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l2MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l2clEEe-rq_dRKv7l-w" name="task_type" label="task_type" length="8" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l2slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l28lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l3MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l3clEEe-rq_dRKv7l-w" name="task_name" label="task_name" length="23" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l3slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l38lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l4MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l4clEEe-rq_dRKv7l-w" name="run_status" label="run_status" length="17" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l4slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l48lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l5MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l5clEEe-rq_dRKv7l-w" name="last_run_date" label="last_run_date" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <taggedValue xmi:id="_rt9l5slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l58lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l6MlEEe-rq_dRKv7l-w" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l6clEEe-rq_dRKv7l-w" name="last_triggering_date" label="last_triggering_date" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <taggedValue xmi:id="_rt9l6slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l68lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l7MlEEe-rq_dRKv7l-w" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l7clEEe-rq_dRKv7l-w" name="jobVersion" label="jobVersion" length="6" sourceType="FLOAT" talendType="id_Float">
-        <taggedValue xmi:id="_rt9l7slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l78lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l8MlEEe-rq_dRKv7l-w" name="FLOAT" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l8clEEe-rq_dRKv7l-w" name="error_status" label="error_status" length="255" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l8slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l88lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l9MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l9clEEe-rq_dRKv7l-w" name="trigger_type" label="trigger_type" length="6" sourceType="VARCHAR" talendType="id_String">
-        <taggedValue xmi:id="_rt9l9slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l98lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l-MlEEe-rq_dRKv7l-w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_rt9l-clEEe-rq_dRKv7l-w" name="executeDurationMs" label="executeDurationMs" length="10" precision="3" sourceType="FLOAT" talendType="id_Float">
-        <taggedValue xmi:id="_rt9l-slEEe-rq_dRKv7l-w" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_rt9l-8lEEe-rq_dRKv7l-w" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_rt9l_MlEEe-rq_dRKv7l-w" name="FLOAT" numericPrecision="3" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
-      </feature>
-    </ownedElement>
-  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_eqHEEMk7Ee-kVJu3eFXszA" name="logs" dataManager="_epc8wMk7Ee-kVJu3eFXszA"/>
 </xmi:XMI>
