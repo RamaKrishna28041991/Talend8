@@ -17,6 +17,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_ImZWSskwEe-kVJu3eFXszA" name="default" dataManager="_ImZWQMkwEe-kVJu3eFXszA">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ImZWS8kwEe-kVJu3eFXszA" id="_XabnwMkvEe-kVJu3eFXszA" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTMkwEe-kVJu3eFXszA" label="Schedule_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sjqj8MkyEe-kVJu3eFXszA" label="Task_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTckwEe-kVJu3eFXszA" label="Trigger_Type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTskwEe-kVJu3eFXszA" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWT8kwEe-kVJu3eFXszA" label="Trigger_StartDate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
@@ -24,7 +25,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUckwEe-kVJu3eFXszA" label="Trigger_Specific" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUskwEe-kVJu3eFXszA" label="Trigger_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWU8kwEe-kVJu3eFXszA" label="Trigger_Timeout" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sjqj8MkyEe-kVJu3eFXszA" label="Task_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sjqj8ckyEe-kVJu3eFXszA" label="Executable_Type" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
