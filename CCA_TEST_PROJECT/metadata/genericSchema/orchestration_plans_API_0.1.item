@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_AolBwMlJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataPackage="_AolBwclJEe-rq_dRKv7l-w" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_AolBwclJEe-rq_dRKv7l-w" name="repository.metadataGenericSchema" dataManager="_AolBwMlJEe-rq_dRKv7l-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AolBwslJEe-rq_dRKv7l-w" id="_47bI0MlIEe-rq_dRKv7l-w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBw8lJEe-rq_dRKv7l-w" name="plan_id" label="plan_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="newColumn1" label="newColumn1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="newColumn2" label="newColumn2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="newColumn3" label="newColumn3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="newColumn4" label="newColumn4" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="newColumn5" label="newColumn5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="newColumn6" label="newColumn6" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="newColumn7" label="newColumn7" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
