@@ -26,7 +26,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZcZxEe-8UahjDUH8ig" label="Last_Triggering_Date" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZsZxEe-8UahjDUH8ig" label="JobVersion" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhZ8ZxEe-8UahjDUH8ig" label="Error_Status" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhaMZxEe-8UahjDUH8ig" label="Trigger_Type" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhaMZxEe-8UahjDUH8ig" label="Trigger_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S_xhacZxEe-8UahjDUH8ig" label="executeDurationMs" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
