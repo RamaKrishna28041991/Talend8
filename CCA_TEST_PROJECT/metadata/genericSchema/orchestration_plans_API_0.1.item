@@ -14,7 +14,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tXIJwMlJEe-rq_dRKv7l-w" name="plan_step_status" label="plan_step_status" length="24" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tbOmoMlJEe-rq_dRKv7l-w" name="task_id" label="task_id" length="64" talendType="id_String" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2W4TAMlJEe-rq_dRKv7l-w" name="task_name" label="task_name" length="255" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2YxwcMlJEe-rq_dRKv7l-w" name="task_version" label="task_version" length="7" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2YxwcMlJEe-rq_dRKv7l-w" name="task_version" label="task_version" length="6" talendType="id_String"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
