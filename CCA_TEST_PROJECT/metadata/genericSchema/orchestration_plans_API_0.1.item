@@ -7,7 +7,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxMlJEe-rq_dRKv7l-w" name="plan_name" label="plan_name" length="255" sourceType="TINYTEXT" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxclJEe-rq_dRKv7l-w" name="workspace_id" label="workspace_id" length="64" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBxslJEe-rq_dRKv7l-w" name="owner" label="owner" length="255" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolBx8lJEe-rq_dRKv7l-w" name="plan_type" label="plan_type" length="24" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByMlJEe-rq_dRKv7l-w" name="environment_id" label="environment_id" length="64" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByclJEe-rq_dRKv7l-w" name="plan_description" label="plan_description" length="255" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AolByslJEe-rq_dRKv7l-w" name="plan_step_id" label="plan_step_id" length="64" talendType="id_String"/>
