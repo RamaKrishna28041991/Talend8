@@ -768,7 +768,7 @@
       <column comment="" key="false" length="7" name="executeDurationMs" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="ExecutionSearch">
         <mapperTableEntries name="Run_Id" expression="row7.Run_Id " type="id_String" nullable="true"/>
