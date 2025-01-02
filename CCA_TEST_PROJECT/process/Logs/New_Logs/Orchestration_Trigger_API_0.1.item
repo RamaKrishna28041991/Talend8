@@ -272,7 +272,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Schedule_ID" id="0"/>
       <elementValue elementRef="QUERY" value="&quot;id&quot;" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="2"/>
-      <elementValue elementRef="QUERY" value="&quot;triggers[*].type&quot;" id="3"/>
+      <elementValue elementRef="QUERY" value="&quot;$.items[*].triggers[*].type&quot;" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Interval" id="4"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*].interval&quot;" id="5"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_StartDate" id="6"/>
