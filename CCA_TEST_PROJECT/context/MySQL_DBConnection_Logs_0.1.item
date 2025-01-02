@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ec9Y4Mk7Ee-kVJu3eFXszA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_ec9Y4ck7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_Login" prompt="MySQL_DBConnection_Logs_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+  <contextParameter xmi:id="_ec9Y4sk7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_Port" prompt="MySQL_DBConnection_Logs_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_ec9Y48k7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_AdditionalParams" prompt="MySQL_DBConnection_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+  <contextParameter xmi:id="_ec9Y5Mk7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_Database" prompt="MySQL_DBConnection_Logs_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="logs"/>
+  <contextParameter xmi:id="_ec9Y5ck7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_Server" prompt="MySQL_DBConnection_Logs_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_ec9Y5sk7Ee-kVJu3eFXszA" comment="" name="MySQL_DBConnection_Logs_Password" prompt="MySQL_DBConnection_Logs_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:ne6qAAIZ9PkPjbh4j9PO6bE6p8eezgyfdBL8PSELUSy/ZDzVccoeFA=="/>
+</talendfile:ContextType>

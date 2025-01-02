@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_epc8wMk7Ee-kVJu3eFXszA" name="MySQL_DBConnection_Logs" id="_FFtcwMk7Ee-kVJu3eFXszA" label="MySQL_DBConnection_Logs" dataPackage="_eqHEEMk7Ee-kVJu3eFXszA" ContextMode="true" ContextId="_ecoowMk7Ee-kVJu3eFXszA" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/logs?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.MySQL_DBConnection_Logs_Port" Username="context.MySQL_DBConnection_Logs_Login" Password="context.MySQL_DBConnection_Logs_Password" ServerName="context.MySQL_DBConnection_Logs_Server" DatasourceName="" FileFieldName="" SID="context.MySQL_DBConnection_Logs_Database" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySQL_DBConnection_Logs_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_epc8wck7Ee-kVJu3eFXszA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_epupkMk7Ee-kVJu3eFXszA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_epxF0Mk7Ee-kVJu3eFXszA" tag="Status" value=""/>
+    <taggedValue xmi:id="_epxF0ck7Ee-kVJu3eFXszA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_epxF0sk7Ee-kVJu3eFXszA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_epxF08k7Ee-kVJu3eFXszA" tag="Description" value=""/>
+    <taggedValue xmi:id="_epxF1Mk7Ee-kVJu3eFXszA" tag="Author" value=""/>
+    <taggedValue xmi:id="_epxF1ck7Ee-kVJu3eFXszA" tag="otherParameter"/>
+    <taggedValue xmi:id="_ep8sAMk7Ee-kVJu3eFXszA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_ep8sAck7Ee-kVJu3eFXszA" tag="DB ProductVersion" value="8.0.40"/>
+    <taggedValue xmi:id="_ep8sAsk7Ee-kVJu3eFXszA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_epc8wsk7Ee-kVJu3eFXszA" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_DBConnection_Logs_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_eqHEEMk7Ee-kVJu3eFXszA" name="logs" dataManager="_epc8wMk7Ee-kVJu3eFXszA"/>
+</xmi:XMI>
