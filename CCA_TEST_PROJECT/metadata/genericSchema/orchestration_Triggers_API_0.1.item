@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
   <TalendMetadata:GenericSchemaConnection xmi:id="_TWfzcMmLEe-rq_dRKv7l-w" comment="connectionComment" label="connectionLabel" dataPackage="_TWfzccmLEe-rq_dRKv7l-w"/>
   <TalendMetadata:GenericPackage xmi:id="_TWfzccmLEe-rq_dRKv7l-w" dataManager="_TWfzcMmLEe-rq_dRKv7l-w">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TWfzcsmLEe-rq_dRKv7l-w" label="metadata">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TWfzcsmLEe-rq_dRKv7l-w" id="_t1iJgMn4Ee-rq_dRKv7l-w" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzc8mLEe-rq_dRKv7l-w" name="Trigger_ID" id="16360" label="Trigger_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzdMmLEe-rq_dRKv7l-w"/>
       </feature>
@@ -15,7 +15,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzecmLEe-rq_dRKv7l-w" name="Interval" id="16363" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzesmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfze8mLEe-rq_dRKv7l-w" name="Trigger_StartDate" id="16364" label="Trigger_StartDate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfze8mLEe-rq_dRKv7l-w" name="Trigger_StartDate" id="16364" label="Trigger_StartDate" length="15" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
         <initialValue xmi:id="_TWfzfMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzfcmLEe-rq_dRKv7l-w" name="Trigger_TimeZone" id="16365" label="Trigger_TimeZone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
@@ -30,6 +30,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzg8mLEe-rq_dRKv7l-w" name="Trigger_Timeout" id="16368" label="Trigger_Timeout" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhMmLEe-rq_dRKv7l-w"/>
       </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1egGAMn4Ee-rq_dRKv7l-w" name="CronExpression" label="CronExpression" length="36" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzhcmLEe-rq_dRKv7l-w" name="Executable_Id" id="16369" label="Executable_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhsmLEe-rq_dRKv7l-w"/>
       </feature>
