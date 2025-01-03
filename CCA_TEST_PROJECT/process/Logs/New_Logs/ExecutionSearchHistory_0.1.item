@@ -412,8 +412,8 @@
         <mapperTableEntries name="task_type" expression="row3.task_type " type="id_String" nullable="true"/>
         <mapperTableEntries name="task_name" expression="row3.task_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="run_status" expression="row3.run_status " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_run_date" expression="new Date(row3.last_run_date) " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="last_triggering_date" expression="new Date(row3.last_triggering_date)" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="last_run_date" expression="new Date(Long.parseLong(row3.last_run_date))" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="last_triggering_date" expression="new Date(Long.parseLong(row3.last_triggering_date))" type="id_Date" nullable="true"/>
         <mapperTableEntries name="jobVersion" expression="row3.jobVersion " type="id_String" nullable="true"/>
         <mapperTableEntries name="error_message" expression="row3.error_message " type="id_String" nullable="true"/>
         <mapperTableEntries name="trigger_type" expression="row3.trigger_type " type="id_String" nullable="true"/>
