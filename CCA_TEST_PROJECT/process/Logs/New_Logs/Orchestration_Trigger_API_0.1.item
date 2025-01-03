@@ -246,7 +246,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_ID" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;id&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;$.items.id&quot;" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
