@@ -589,6 +589,7 @@
       <column comment="" key="false" length="255" name="Days_Of_Week" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Year" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="CronExpression" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="65535" name="Cron_Interpretation" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="65535" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -613,6 +614,7 @@
         <mapperTableEntries name="Days_Of_Week" expression="row5.CronExpression.split(&quot; &quot;)[4]" type="id_String" nullable="true"/>
         <mapperTableEntries name="Year" expression="row5.CronExpression.split(&quot; &quot;)[5]" type="id_String" nullable="true"/>
         <mapperTableEntries name="CronExpression" expression="row5.CronExpression " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Cron_Interpretation" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row5" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Trigger_ID" type="id_String" nullable="true"/>
@@ -827,6 +829,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="CronExpression" id="0"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="Cron_Interpretation" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="TriggerParsed" show="false"/>
