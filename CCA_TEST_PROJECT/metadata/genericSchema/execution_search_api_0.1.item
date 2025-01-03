@@ -9,7 +9,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5xclGEe-rq_dRKv7l-w" name="task_id" label="task_id" length="255" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_b-P5xslGEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5x8lGEe-rq_dRKv7l-w" name="task_type" label="task_type" length="24" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5x8lGEe-rq_dRKv7l-w" name="task_type" label="task_type" length="36" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_b-P5yMlGEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P5yclGEe-rq_dRKv7l-w" name="task_name" label="task_name" length="255" sourceType="VARCHAR" talendType="id_String">
@@ -30,10 +30,10 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P508lGEe-rq_dRKv7l-w" name="error_message" label="error_message" length="65535" sourceType="TEXT" talendType="id_String">
         <initialValue xmi:id="_b-P51MlGEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P51clGEe-rq_dRKv7l-w" name="trigger_type" label="trigger_type" length="6" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P51clGEe-rq_dRKv7l-w" name="trigger_type" label="trigger_type" length="24" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_b-P51slGEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P518lGEe-rq_dRKv7l-w" name="executeDurationMs" label="executeDurationMs" length="10" precision="3" sourceType="FLOAT" talendType="id_Float">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b-P518lGEe-rq_dRKv7l-w" name="executeDurationMs" label="executeDurationMs" length="24" precision="3" sourceType="FLOAT" talendType="id_Float">
         <initialValue xmi:id="_b-P52MlGEe-rq_dRKv7l-w"/>
       </feature>
     </ownedElement>
