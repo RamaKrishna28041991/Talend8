@@ -35,7 +35,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzhcmLEe-rq_dRKv7l-w" name="Executable_Id" id="16369" label="Executable_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhsmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzh8mLEe-rq_dRKv7l-w" name="Executable_Type" id="16370" label="Executable_Type" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzh8mLEe-rq_dRKv7l-w" name="Executable_Type" id="16370" label="Executable_Type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfziMmLEe-rq_dRKv7l-w"/>
       </feature>
     </ownedElement>
