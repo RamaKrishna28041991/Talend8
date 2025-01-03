@@ -265,30 +265,34 @@
       <elementValue elementRef="QUERY" value="" id="21"/>
       <elementValue elementRef="NODECHECK" value="false" id="22"/>
       <elementValue elementRef="ISARRAY" value="false" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Type" id="24"/>
       <elementValue elementRef="QUERY" value="" id="25"/>
       <elementValue elementRef="NODECHECK" value="false" id="26"/>
       <elementValue elementRef="ISARRAY" value="false" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Time" id="28"/>
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="32"/>
       <elementValue elementRef="QUERY" value="" id="33"/>
       <elementValue elementRef="NODECHECK" value="false" id="34"/>
       <elementValue elementRef="ISARRAY" value="false" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="36"/>
       <elementValue elementRef="QUERY" value="" id="37"/>
       <elementValue elementRef="NODECHECK" value="false" id="38"/>
       <elementValue elementRef="ISARRAY" value="false" id="39"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="40"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="40"/>
       <elementValue elementRef="QUERY" value="" id="41"/>
       <elementValue elementRef="NODECHECK" value="false" id="42"/>
       <elementValue elementRef="ISARRAY" value="false" id="43"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="44"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="44"/>
       <elementValue elementRef="QUERY" value="" id="45"/>
       <elementValue elementRef="NODECHECK" value="false" id="46"/>
       <elementValue elementRef="ISARRAY" value="false" id="47"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="48"/>
+      <elementValue elementRef="QUERY" value="" id="49"/>
+      <elementValue elementRef="NODECHECK" value="false" id="50"/>
+      <elementValue elementRef="ISARRAY" value="false" id="51"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_ID" id="0"/>
@@ -303,18 +307,20 @@
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="10"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Type" id="12"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="14"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Time" id="14"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="16"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="18"/>
       <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="20"/>
-      <elementValue elementRef="QUERY" value="&quot;executableId&quot;" id="21"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="22"/>
-      <elementValue elementRef="QUERY" value="&quot;executableType&quot;" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="20"/>
+      <elementValue elementRef="QUERY" value="&quot;triggers[*]&quot;" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="22"/>
+      <elementValue elementRef="QUERY" value="&quot;executableId&quot;" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="24"/>
+      <elementValue elementRef="QUERY" value="&quot;executableType&quot;" id="25"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -326,28 +332,30 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tExtractJSONFields_1">
       <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Trigger_Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Trigger_StartDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Trigger_TimeZone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Trigger_Specific_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Trigger_Specific_Time" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="CronExpression" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="Executable_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Trigger_Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Trigger_StartDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Trigger_TimeZone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Trigger_Specific_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Trigger_Specific_Time" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="CronExpression" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="Executable_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -388,30 +396,34 @@
       <elementValue elementRef="QUERY" value="" id="21"/>
       <elementValue elementRef="NODECHECK" value="false" id="22"/>
       <elementValue elementRef="ISARRAY" value="false" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Type" id="24"/>
       <elementValue elementRef="QUERY" value="" id="25"/>
       <elementValue elementRef="NODECHECK" value="false" id="26"/>
       <elementValue elementRef="ISARRAY" value="false" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Time" id="28"/>
       <elementValue elementRef="QUERY" value="" id="29"/>
       <elementValue elementRef="NODECHECK" value="false" id="30"/>
       <elementValue elementRef="ISARRAY" value="false" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="32"/>
       <elementValue elementRef="QUERY" value="" id="33"/>
       <elementValue elementRef="NODECHECK" value="false" id="34"/>
       <elementValue elementRef="ISARRAY" value="false" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="36"/>
       <elementValue elementRef="QUERY" value="" id="37"/>
       <elementValue elementRef="NODECHECK" value="false" id="38"/>
       <elementValue elementRef="ISARRAY" value="false" id="39"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="40"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="40"/>
       <elementValue elementRef="QUERY" value="" id="41"/>
       <elementValue elementRef="NODECHECK" value="false" id="42"/>
       <elementValue elementRef="ISARRAY" value="false" id="43"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="44"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="44"/>
       <elementValue elementRef="QUERY" value="" id="45"/>
       <elementValue elementRef="NODECHECK" value="false" id="46"/>
       <elementValue elementRef="ISARRAY" value="false" id="47"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="48"/>
+      <elementValue elementRef="QUERY" value="" id="49"/>
+      <elementValue elementRef="NODECHECK" value="false" id="50"/>
+      <elementValue elementRef="ISARRAY" value="false" id="51"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_ID" id="0"/>
@@ -426,18 +438,20 @@
       <elementValue elementRef="QUERY" value="&quot;startDate&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="10"/>
       <elementValue elementRef="QUERY" value="&quot;timeZone&quot;" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Type" id="12"/>
       <elementValue elementRef="QUERY" value="&quot;atTimes.type&quot;" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="14"/>
-      <elementValue elementRef="QUERY" value="" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="16"/>
-      <elementValue elementRef="QUERY" value="" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="18"/>
-      <elementValue elementRef="QUERY" value="" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="20"/>
-      <elementValue elementRef="QUERY" value="" id="21"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="22"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Time" id="14"/>
+      <elementValue elementRef="QUERY" value="&quot;atTimes.times&quot;" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="16"/>
+      <elementValue elementRef="QUERY" value="&quot;name&quot;" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="18"/>
+      <elementValue elementRef="QUERY" value="&quot;timeout" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="20"/>
+      <elementValue elementRef="QUERY" value="&quot;cronExpression&quot;" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="22"/>
       <elementValue elementRef="QUERY" value="" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="24"/>
+      <elementValue elementRef="QUERY" value="" id="25"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -449,28 +463,30 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tExtractJSONFields_2">
       <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Trigger_Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Trigger_StartDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Trigger_TimeZone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Trigger_Specific_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Trigger_Specific_Time" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="CronExpression" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="Executable_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Trigger_Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Trigger_StartDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Trigger_TimeZone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Trigger_Specific_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Trigger_Specific_Time" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="CronExpression" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="Executable_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -505,32 +521,35 @@
       <elementValue elementRef="LENGTH" value="10" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="10"/>
       <elementValue elementRef="LENGTH" value="10" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Type" id="12"/>
       <elementValue elementRef="LENGTH" value="10" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="14"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific_Time" id="14"/>
       <elementValue elementRef="LENGTH" value="10" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="16"/>
       <elementValue elementRef="LENGTH" value="10" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="18"/>
       <elementValue elementRef="LENGTH" value="10" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="20"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CronExpression" id="20"/>
       <elementValue elementRef="LENGTH" value="10" id="21"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="22"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Id" id="22"/>
       <elementValue elementRef="LENGTH" value="10" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Executable_Type" id="24"/>
+      <elementValue elementRef="LENGTH" value="10" id="25"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tLogRow_2">
       <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="9" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="Trigger_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Trigger_Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Interval" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Trigger_StartDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Trigger_TimeZone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Trigger_Specific" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="Trigger_Specific_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Trigger_Specific_Time" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Trigger_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Trigger_Timeout" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="CronExpression" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="Executable_Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Executable_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
