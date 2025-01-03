@@ -246,7 +246,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_ID" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;$.items.id&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;id&quot;" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -256,11 +256,11 @@
     <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
     <elementParameter field="CHECK" name="SPLIT_LIST" value="true" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tExtractJSONFields_1">
-      <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tExtractJSONFields_1">
+      <column comment="" key="false" length="36" name="Trigger_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="36" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="36" name="Trigger_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="36" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -286,8 +286,8 @@
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tLogRow_2">
-      <column comment="" key="false" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column comment="" key="false" length="36" name="Trigger_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="36" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="120">
