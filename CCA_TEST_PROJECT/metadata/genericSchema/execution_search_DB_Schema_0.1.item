@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
-  <TalendMetadata:GenericSchemaConnection xmi:id="_iBsfUMoJEe-9cLxTb5xxbg" comment="connectionComment" label="connectionLabel" dataPackage="_iBsfUcoJEe-9cLxTb5xxbg"/>
+  <TalendMetadata:GenericSchemaConnection xmi:id="_iBsfUMoJEe-9cLxTb5xxbg" comment="connectionComment" label="connectionLabel" dataPackage="_iBsfUcoJEe-9cLxTb5xxbg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_iBsfUcoJEe-9cLxTb5xxbg" dataManager="_iBsfUMoJEe-9cLxTb5xxbg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iBsfUsoJEe-9cLxTb5xxbg" label="metadata">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iBsfUsoJEe-9cLxTb5xxbg" id="_jh678MoJEe-9cLxTb5xxbg" label="execution_search_api">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iBsfU8oJEe-9cLxTb5xxbg" name="run_id" id="5666" label="run_id" length="255" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
         <initialValue xmi:id="_iBsfVMoJEe-9cLxTb5xxbg"/>
       </feature>
@@ -24,7 +24,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iBsfX8oJEe-9cLxTb5xxbg" name="last_triggering_date" id="5672" label="last_triggering_date" length="255" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
         <initialValue xmi:id="_iBsfYMoJEe-9cLxTb5xxbg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iBsfYcoJEe-9cLxTb5xxbg" name="jobVersion" id="5673" label="jobVersion" length="8" sourceType="FLOAT" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iBsfYcoJEe-9cLxTb5xxbg" name="jobVersion" id="5673" label="jobVersion" length="8" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_iBsfYsoJEe-9cLxTb5xxbg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iBsfY8oJEe-9cLxTb5xxbg" name="error_message" id="5674" label="error_message" length="65535" sourceType="TEXT" talendType="id_String">
