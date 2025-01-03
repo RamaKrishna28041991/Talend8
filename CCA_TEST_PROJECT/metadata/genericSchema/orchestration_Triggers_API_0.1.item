@@ -3,7 +3,7 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_TWfzcMmLEe-rq_dRKv7l-w" comment="connectionComment" label="connectionLabel" dataPackage="_TWfzccmLEe-rq_dRKv7l-w"/>
   <TalendMetadata:GenericPackage xmi:id="_TWfzccmLEe-rq_dRKv7l-w" dataManager="_TWfzcMmLEe-rq_dRKv7l-w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TWfzcsmLEe-rq_dRKv7l-w" id="_t1iJgMn4Ee-rq_dRKv7l-w" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzc8mLEe-rq_dRKv7l-w" name="Trigger_ID" id="16360" label="Trigger_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzc8mLEe-rq_dRKv7l-w" name="Trigger_ID" id="16360" label="Trigger_ID" length="24" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzdMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzdcmLEe-rq_dRKv7l-w" name="Trigger_Type" id="16361" label="Trigger_Type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
@@ -31,7 +31,7 @@
         <initialValue xmi:id="_TWfzhMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1egGAMn4Ee-rq_dRKv7l-w" name="CronExpression" label="CronExpression" length="36" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzhcmLEe-rq_dRKv7l-w" name="Executable_Id" id="16369" label="Executable_Id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzhcmLEe-rq_dRKv7l-w" name="Executable_Id" id="16369" label="Executable_Id" length="36" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhsmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzh8mLEe-rq_dRKv7l-w" name="Executable_Type" id="16370" label="Executable_Type" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
