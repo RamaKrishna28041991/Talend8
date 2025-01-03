@@ -509,7 +509,7 @@
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -525,7 +525,7 @@
         <mapperTableEntries name="task_name" expression="ExecutionSearch.task_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="run_status" expression="ExecutionSearch.run_status " type="id_String" nullable="true"/>
         <mapperTableEntries name="last_run_date" expression="ExecutionSearch.last_run_date != null &amp;&amp; !ExecutionSearch.last_run_date.isEmpty()? new Date((long) Double.parseDouble(ExecutionSearch.last_run_date)):null " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="last_triggering_date" expression="ExecutionSearch.last_triggering_date " type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_triggering_date" expression="ExecutionSearch.last_triggering_date != null &amp;&amp; !ExecutionSearch.last_triggering_date.isEmpty()? new Date((long) Double.parseDouble(ExecutionSearch.last_triggering_date)):null " type="id_Date" nullable="true"/>
         <mapperTableEntries name="jobVersion" expression="ExecutionSearch.jobVersion " type="id_String" nullable="true"/>
         <mapperTableEntries name="error_message" expression="ExecutionSearch.error_message " type="id_String" nullable="true"/>
         <mapperTableEntries name="trigger_type" expression="ExecutionSearch.trigger_type " type="id_String" nullable="true"/>
@@ -593,7 +593,7 @@
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
