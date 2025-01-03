@@ -1,0 +1,17 @@
+{
+  "itemId" : "_kApBEMmBEe-rq_dRKv7l-w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_gz2kULMtEe-4Trc3duuI2A",
+    "parameterList" : [ {
+      "id" : "_g0KGUbMtEe-4Trc3duuI2A",
+      "name" : "bearerToken"
+    }, {
+      "id" : "_k0GJ0LMxEe-ivtgpgLng5A",
+      "name" : "envID"
+    }, {
+      "id" : "_Lmte4MkrEe-kVJu3eFXszA",
+      "name" : "currentDate"
+    } ]
+  } ]
+}
