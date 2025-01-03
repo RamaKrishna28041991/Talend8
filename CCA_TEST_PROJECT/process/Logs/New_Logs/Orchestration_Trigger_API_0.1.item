@@ -417,17 +417,17 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_ID" id="0"/>
       <elementValue elementRef="QUERY" value="" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Type" id="2"/>
-      <elementValue elementRef="QUERY" value="" id="3"/>
+      <elementValue elementRef="QUERY" value="&quot;type&quot;" id="3"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Description" id="4"/>
       <elementValue elementRef="QUERY" value="" id="5"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Interval" id="6"/>
-      <elementValue elementRef="QUERY" value="" id="7"/>
+      <elementValue elementRef="QUERY" value="&quot;interval&quot;" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_StartDate" id="8"/>
-      <elementValue elementRef="QUERY" value="" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;startDate&quot;" id="9"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_TimeZone" id="10"/>
-      <elementValue elementRef="QUERY" value="" id="11"/>
+      <elementValue elementRef="QUERY" value="&quot;timeZone&quot;" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Specific" id="12"/>
-      <elementValue elementRef="QUERY" value="" id="13"/>
+      <elementValue elementRef="QUERY" value="&quot;atTimes.type&quot;" id="13"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Name" id="14"/>
       <elementValue elementRef="QUERY" value="" id="15"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Trigger_Timeout" id="16"/>
