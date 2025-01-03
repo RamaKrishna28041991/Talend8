@@ -15,7 +15,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzecmLEe-rq_dRKv7l-w" name="Interval" id="16363" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzesmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfze8mLEe-rq_dRKv7l-w" name="Trigger_StartDate" id="16364" label="Trigger_StartDate" length="15" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfze8mLEe-rq_dRKv7l-w" name="Trigger_StartDate" id="16364" label="Trigger_StartDate" length="15" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
         <initialValue xmi:id="_TWfzfMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzfcmLEe-rq_dRKv7l-w" name="Trigger_TimeZone" id="16365" label="Trigger_TimeZone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
@@ -27,7 +27,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzgcmLEe-rq_dRKv7l-w" name="Trigger_Name" id="16367" label="Trigger_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzgsmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzg8mLEe-rq_dRKv7l-w" name="Trigger_Timeout" id="16368" label="Trigger_Timeout" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzg8mLEe-rq_dRKv7l-w" name="Trigger_Timeout" id="16368" label="Trigger_Timeout" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1egGAMn4Ee-rq_dRKv7l-w" name="CronExpression" label="CronExpression" length="36" talendType="id_String"/>
