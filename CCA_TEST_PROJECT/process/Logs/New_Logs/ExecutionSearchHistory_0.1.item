@@ -370,8 +370,8 @@
       <column comment="" key="false" length="36" name="task_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -386,8 +386,8 @@
         <mapperTableEntries name="task_type" expression="row3.task_type " type="id_String" nullable="true"/>
         <mapperTableEntries name="task_name" expression="row3.task_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="run_status" expression="row3.run_status " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_run_date" expression="row3.last_run_date.matches(&quot;\\d+&quot;) ? new Date(Long.parseLong(row3.last_run_date)) : row3.last_run_date " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_triggering_date" expression="row3.last_triggering_date.matches(&quot;\\d+&quot;) ? new Date(Long.parseLong(row3.last_triggering_date)) : row3.last_triggering_date " type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_run_date" expression="row3.last_run_date.matches(&quot;\\d+&quot;) ? new Date(Long.parseLong(row3.last_run_date)) : row3.last_run_date " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="last_triggering_date" expression="row3.last_triggering_date.matches(&quot;\\d+&quot;) ? new Date(Long.parseLong(row3.last_triggering_date)) : row3.last_triggering_date " type="id_Date" nullable="true"/>
         <mapperTableEntries name="jobVersion" expression="row3.jobVersion " type="id_String" nullable="true"/>
         <mapperTableEntries name="error_message" expression="row3.error_message " type="id_String" nullable="true"/>
         <mapperTableEntries name="trigger_type" expression="row3.trigger_type " type="id_String" nullable="true"/>
@@ -454,8 +454,8 @@
       <column comment="" key="false" length="36" name="task_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -561,8 +561,8 @@
       <column comment="" key="false" length="36" name="task_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -574,8 +574,8 @@
       <column comment="" key="false" length="36" name="task_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="run_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_run_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="last_triggering_date" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="jobVersion" nullable="true" pattern="" precision="0" sourceType="FLOAT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="65535" name="error_message" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="24" name="trigger_type" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
