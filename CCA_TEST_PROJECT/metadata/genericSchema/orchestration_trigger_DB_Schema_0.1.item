@@ -3,7 +3,7 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_183nksn5Ee-rq_dRKv7l-w" comment="connectionComment" label="connectionLabel" dataPackage="_183nk8n5Ee-rq_dRKv7l-w" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_183nk8n5Ee-rq_dRKv7l-w" dataManager="_183nksn5Ee-rq_dRKv7l-w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_183nlMn5Ee-rq_dRKv7l-w" id="_64plEMn5Ee-rq_dRKv7l-w" label="orchestration_trigger_api">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nlcn5Ee-rq_dRKv7l-w" name="Trigger_ID" id="18512" label="Trigger_ID" length="24" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nlcn5Ee-rq_dRKv7l-w" name="Trigger_ID" id="18512" label="Trigger_ID" length="24" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_183nlsn5Ee-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nl8n5Ee-rq_dRKv7l-w" name="Trigger_Type" id="18513" label="Trigger_Type" length="9" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
@@ -33,7 +33,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183np8n5Ee-rq_dRKv7l-w" name="CronExpression" id="18521" label="CronExpression" length="36" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_183nqMn5Ee-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nqcn5Ee-rq_dRKv7l-w" name="Executable_Id" id="18522" label="Executable_Id" length="36" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nqcn5Ee-rq_dRKv7l-w" name="Executable_Id" id="18522" label="Executable_Id" length="36" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_183nqsn5Ee-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_183nq8n5Ee-rq_dRKv7l-w" name="Executable_Type" id="18523" label="Executable_Type" length="4" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
