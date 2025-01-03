@@ -12,7 +12,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzd8mLEe-rq_dRKv7l-w" name="Trigger_Description" id="16362" label="Trigger_Description" length="255" talendType="id_String">
         <initialValue xmi:id="_TWfzeMmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzecmLEe-rq_dRKv7l-w" name="Interval" id="16363" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzecmLEe-rq_dRKv7l-w" name="Interval" id="16363" label="Interval" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzesmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfze8mLEe-rq_dRKv7l-w" name="Trigger_StartDate" id="16364" label="Trigger_StartDate" length="15" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
