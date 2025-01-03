@@ -27,7 +27,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzgcmLEe-rq_dRKv7l-w" name="Trigger_Name" id="16367" label="Trigger_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzgsmLEe-rq_dRKv7l-w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzg8mLEe-rq_dRKv7l-w" name="Trigger_Timeout" id="16368" label="Trigger_Timeout" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzg8mLEe-rq_dRKv7l-w" name="Trigger_Timeout" id="16368" label="Trigger_Timeout" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzhMmLEe-rq_dRKv7l-w"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1egGAMn4Ee-rq_dRKv7l-w" name="CronExpression" label="CronExpression" length="36" talendType="id_String"/>
