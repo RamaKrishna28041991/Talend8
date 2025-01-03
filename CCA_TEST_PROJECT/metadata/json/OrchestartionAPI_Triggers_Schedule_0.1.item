@@ -18,6 +18,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ImZWS8kwEe-kVJu3eFXszA" id="_XabnwMkvEe-kVJu3eFXszA" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_udtGwMmKEe-rq_dRKv7l-w" label="Trigger_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTckwEe-kVJu3eFXszA" label="Trigger_Type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AFgD4MmLEe-rq_dRKv7l-w" name="Trigger_Description" label="Trigger_Description" length="255" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWTskwEe-kVJu3eFXszA" label="Interval" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWT8kwEe-kVJu3eFXszA" label="Trigger_StartDate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ImZWUMkwEe-kVJu3eFXszA" label="Trigger_TimeZone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
