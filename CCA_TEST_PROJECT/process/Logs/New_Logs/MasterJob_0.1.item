@@ -287,13 +287,13 @@
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
     <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.office365.com&quot;"/>
-    <elementParameter field="TEXT" name="SMTP_PORT" value="25"/>
-    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="587"/>
+    <elementParameter field="CHECK" name="SSL" value="true"/>
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:5+2lPZP2rXTMqGl9i5RL7tSz0tOm/rxfgRfBBW51UV4v11bmqPU="/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;prabhuteja.anem@thinkartha.com&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:/TeZSLiKCuZuJJI8e5Dfff5WFHO5fBn9IeZPNodBXPI6ZlDqJI68ROM="/>
     <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:bHitQhueJImoqB4j6GvjVtQhbO4yzpncGpKRlQmw7FetbAtBtDo=" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
