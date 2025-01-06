@@ -18,22 +18,22 @@
     "repoId" : "_ecoowMk7Ee-kVJu3eFXszA",
     "parameterList" : [ {
       "id" : "_ec9Y4ck7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_Login"
+      "name" : "MySQL_DBConnection_Logs_staging_Login"
     }, {
       "id" : "_ec9Y5Mk7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_Database"
+      "name" : "MySQL_DBConnection_Logs_staging_Database"
     }, {
       "id" : "_ec9Y5sk7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_Password"
+      "name" : "MySQL_DBConnection_Logs_staging_Password"
     }, {
       "id" : "_ec9Y4sk7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_Port"
+      "name" : "MySQL_DBConnection_Logs_staging_Port"
     }, {
       "id" : "_ec9Y48k7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_AdditionalParams"
+      "name" : "MySQL_DBConnection_Logs_staging_AdditionalParams"
     }, {
       "id" : "_ec9Y5ck7Ee-kVJu3eFXszA",
-      "name" : "MySQL_DBConnection_Logs_Server"
+      "name" : "MySQL_DBConnection_Logs_staging_Server"
     } ]
   } ]
 }

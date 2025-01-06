@@ -3,12 +3,12 @@
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_4dftwMZ2Ee-8UahjDUH8ig"/>
     <contextParameter comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="62146eea35a00b1c46aae429" internalId="_4dftwcZ2Ee-8UahjDUH8ig"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_Login" prompt="MySQL_DBConnection_Logs_Login?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="root" internalId="_xnr4oMlMEe-rq_dRKv7l-w"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_Database" prompt="MySQL_DBConnection_Logs_Database?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="logs_stagging" internalId="_xnr4oclMEe-rq_dRKv7l-w"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_Password" prompt="MySQL_DBConnection_Logs_Password?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_Password" value="enc:system.encryption.key.v1:so36I0M9AkKm6/M4cOZMaOifvKu5L6KA04if8epbpkjrpDvFSpUV7A==" internalId="_xnsfsMlMEe-rq_dRKv7l-w"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_Port" prompt="MySQL_DBConnection_Logs_Port?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="3306" internalId="_xnsfsclMEe-rq_dRKv7l-w"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_AdditionalParams" prompt="MySQL_DBConnection_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_xnsfsslMEe-rq_dRKv7l-w"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_Server" prompt="MySQL_DBConnection_Logs_Server?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="localhost" internalId="_xnsfs8lMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Login" prompt="MySQL_DBConnection_Logs_staging_Login?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="root" internalId="_xnr4oMlMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Database" prompt="MySQL_DBConnection_Logs_staging_Database?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="logs_stagging" internalId="_xnr4oclMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Password" prompt="MySQL_DBConnection_Logs_staging_Password?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_Password" value="enc:system.encryption.key.v1:so36I0M9AkKm6/M4cOZMaOifvKu5L6KA04if8epbpkjrpDvFSpUV7A==" internalId="_xnsfsMlMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Port" prompt="MySQL_DBConnection_Logs_staging_Port?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="3306" internalId="_xnsfsclMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_AdditionalParams" prompt="MySQL_DBConnection_Logs_staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_xnsfsslMEe-rq_dRKv7l-w"/>
+    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Server" prompt="MySQL_DBConnection_Logs_staging_Server?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="localhost" internalId="_xnsfs8lMEe-rq_dRKv7l-w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -546,11 +546,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qYJD5HYjmd0cGCwQE7eWz3QTOe/9cyimrJ8zCYRdQwzJPz1W/7iLFnScViTBeXahQpSmvsEHxnsP4o9cpjMTpxvXLwM="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_staging_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_staging_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_staging_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_staging_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zyp7+kcF1CW7B5p0oGGubrndLXkqUzKpv6MIsuQo9lzElxWQYqvrrKneKnOvbAO7yr/4xK8QoEYUqOR9yXBqJLZHEUFuZ5Y/3MSkZA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;orchestration_plans_api&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
