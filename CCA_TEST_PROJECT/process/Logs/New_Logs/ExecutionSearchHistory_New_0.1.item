@@ -778,7 +778,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;rows_extracted&quot;,((Integer)globalMap.get(&quot;tHTTPClient_1_NB_LINE&quot;)));&#xA;globalMap.put(&quot;rows_inserted&quot;, ((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE&quot;)));&#xA;&#xA;System.out.println(&quot;Rows Extracted from API &quot;, + rows_extracted);&#xA;System.out.println(&quot;Rows Inserted into Database &quot;, + rows_inserted);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;rows_extracted&quot;,((Integer)globalMap.get(&quot;tHTTPClient_1_NB_LINE&quot;)));&#xA;globalMap.put(&quot;rows_inserted&quot;, ((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE&quot;)));&#xA;&#xA;System.out.println(&quot;Rows Extracted from API &quot;, + globalMap.get(&quot;rows_extracted&quot;));&#xA;System.out.println(&quot;Rows Inserted into Database &quot;, + globalMap.get(&quot;rows_inserted&quot;));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
