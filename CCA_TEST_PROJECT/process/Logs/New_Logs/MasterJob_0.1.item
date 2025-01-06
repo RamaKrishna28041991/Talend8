@@ -286,7 +286,7 @@
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="false"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
-    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.provider.com&quot;"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.office365.com&quot;"/>
     <elementParameter field="TEXT" name="SMTP_PORT" value="25"/>
     <elementParameter field="CHECK" name="SSL" value="false"/>
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
