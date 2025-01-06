@@ -797,7 +797,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="int rowsNormal = (Integer)globalMap.get(&quot;rows_inserted_normal&quot;);&#xA;int rowsFormatted = (Integer)globalMap.get(&quot;rows_inserted_formatted&quot;);&#xA;int totalRowsInserted = rowsNormal + rowsFormatted;&#xA;&#xA;globalMap.put(&quot;total_rows_inserted&quot;, totalRowsInserted);&#xA;&#xA;System.out.println(&quot;Total Rows Inserted into Database: &quot; + totalRowsInserted);&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="int rowsExtracted = ((Integer)globalMap.get(&quot;tExtractJSONFields_1_NB_LINE&quot;))&#xA;&#xA;int rowsNormal = (Integer)globalMap.get(&quot;rows_inserted_normal&quot;);&#xA;int rowsFormatted = (Integer)globalMap.get(&quot;rows_inserted_formatted&quot;);&#xA;int totalRowsInserted = rowsNormal + rowsFormatted;&#xA;&#xA;globalMap.put(&quot;total_rows_inserted&quot;, totalRowsInserted);&#xA;&#xA;System.out.println(&quot;Total Rows Inserted into Database: &quot; + totalRowsInserted);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
