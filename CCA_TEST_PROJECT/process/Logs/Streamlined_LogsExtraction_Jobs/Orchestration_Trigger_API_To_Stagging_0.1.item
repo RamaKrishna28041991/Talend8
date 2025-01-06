@@ -797,7 +797,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-120" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="int rowsInsertedTriggers = (Integer)globalMap.get(&quot;rows_inserted_trigger&quot;);&#xA;&#xA;System.out.println(&quot;\n Total Rows Inserted into Stagging Database of Orchestration Plans API: &quot; + rowsInsertedPlans + &quot;\n&quot;);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="int rowsInsertedTriggers = (Integer)globalMap.get(&quot;rows_inserted_trigger&quot;);&#xA;&#xA;System.out.println(&quot;\n Total Rows Inserted into Stagging Database of Orchestration Triggers API: &quot; + rowsInsertedTriggers + &quot;\n&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
