@@ -32,5 +32,12 @@
       "id" : "_ec9Y5ck7Ee-kVJu3eFXszA",
       "name" : "MySQL_DBConnection_Logs_Server"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_xtqF4MxOEe-9cLxTb5xxbg",
+    "parameterList" : [ {
+      "id" : "_xt4vYcxOEe-9cLxTb5xxbg",
+      "name" : "directory_path"
+    } ]
   } ]
 }
