@@ -821,7 +821,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1560" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;rows_inserted_normal&quot;, ((Integer)globalMap.get(&quot;tMySQLOutput_1_NB_LINE&quot;)));&#xA;globalMap.put(&quot;rows_inserted_formatted&quot;, ((Integer)globalMap.get(&quot;tMySQLOutput_2_NB_LINE&quot;)));&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;rows_inserted_normal&quot;,((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE&quot;)));&#xA;globalMap.put(&quot;rows_inserted_formatted&quot;, ((Integer)globalMap.get(&quot;tMySQLOutput_2_NB_LINE&quot;)));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
