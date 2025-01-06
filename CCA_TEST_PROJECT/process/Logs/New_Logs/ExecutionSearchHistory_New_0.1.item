@@ -340,7 +340,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="720" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="// Capture rows processed by tExtractJSONField&#xA;globalMap.put(&quot;rows_extracted&quot;, globalMap.get(&quot;ExecutionSearch_Fields_NB_LINE&quot;));&#xA;&#xA;// Print the number of rows extracted&#xA;System.out.println(&quot;Rows Extracted After tExtractJSONField: &quot; + globalMap.get(&quot;rows_extracted&quot;));&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// Capture rows processed by tExtractJSONField&#xA;globalMap.put(&quot;rows_extracted&quot;, globalMap.get(&quot;tExtractJSONFields_1_NB_LINE&quot;));&#xA;&#xA;// Print the number of rows extracted&#xA;System.out.println(&quot;Rows Extracted After tExtractJSONField: &quot; + globalMap.get(&quot;rows_extracted&quot;));&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="execution_search_api" name="tJava_3">
