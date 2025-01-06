@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
   <TalendMetadata:GenericSchemaConnection xmi:id="_TWfzcMmLEe-rq_dRKv7l-w" comment="connectionComment" label="connectionLabel" dataPackage="_TWfzccmLEe-rq_dRKv7l-w" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_TWfzccmLEe-rq_dRKv7l-w" dataManager="_TWfzcMmLEe-rq_dRKv7l-w">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TWfzcsmLEe-rq_dRKv7l-w" id="_t1iJgMn4Ee-rq_dRKv7l-w" label="metadata">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TWfzcsmLEe-rq_dRKv7l-w" id="_t1iJgMn4Ee-rq_dRKv7l-w" label="orchestration_trigger_api">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TWfzc8mLEe-rq_dRKv7l-w" name="Trigger_ID" id="16360" label="Trigger_ID" length="24" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_TWfzdMmLEe-rq_dRKv7l-w"/>
       </feature>
