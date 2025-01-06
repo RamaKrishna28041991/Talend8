@@ -266,6 +266,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String migrationStatus = (String) globalMap.get(&quot;migration_status&quot;);&#xA;String emailSubject = &quot;Migration Job Status: &quot; + migrationStatus;&#xA;String emailBody = &quot;&quot;;&#xA;&#xA;if (&quot;SUCCESS&quot;.equals(migrationStatus)) {&#xA;    emailBody = &quot;All rows were migrated successfully!&quot;;&#xA;} else {&#xA;    emailBody = &quot;Migration failed due to row count mismatch. Please investigate.&quot;;&#xA;}&#xA;&#xA;// Store email content in global variables&#xA;globalMap.put(&quot;email_subject&quot;, emailSubject);&#xA;globalMap.put(&quot;email_body&quot;, emailBody);&#xA;&#xA;System.out.println(&quot;Email Subject: &quot; + globalMap.get(&quot;email_subject&quot;));&#xA;System.out.println(&quot;Email Body: &quot; + globalMap.get(&quot;email_body&quot;));&#xA;&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="TEXT" name="TO" value="&quot;prabhuteja.anem@thinkartha.com&quot;"/>
@@ -276,7 +283,7 @@
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;((String)globalMap.get(&quot;email_subject&quot;))&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;((String)globalMap.get(&quot;email_body&quot;))&quot;"/>
-    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="false"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
     <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.provider.com&quot;"/>
@@ -298,13 +305,6 @@
     <elementParameter field="TABLE" name="CONFIGS"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSendMail_1"/>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="String migrationStatus = (String) globalMap.get(&quot;migration_status&quot;);&#xA;String emailSubject = &quot;Migration Job Status: &quot; + migrationStatus;&#xA;String emailBody = &quot;&quot;;&#xA;&#xA;if (&quot;SUCCESS&quot;.equals(migrationStatus)) {&#xA;    emailBody = &quot;All rows were migrated successfully!&quot;;&#xA;} else {&#xA;    emailBody = &quot;Migration failed due to row count mismatch. Please investigate.&quot;;&#xA;}&#xA;&#xA;// Store email content in global variables&#xA;globalMap.put(&quot;email_subject&quot;, emailSubject);&#xA;globalMap.put(&quot;email_body&quot;, emailBody);&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_2"/>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -389,12 +389,12 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
