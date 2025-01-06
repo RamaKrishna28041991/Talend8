@@ -283,7 +283,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_production_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_production_Login"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ew3np5RUC59n5sebeh4z7/MEABBNZiIV2JGE4AfUcgulfcMTlxTsTWOEdWy/ZpwEJHt7FAErM7Gl+oe4bMqHil4569A4HAvX35OVFfvNNw=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="orchestration_trigger_api"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;orchestration_trigger_api&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
