@@ -563,22 +563,22 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_staging_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_staging_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_staging_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_staging_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dLVVZ9PIdIlfR1qD8NpTVHK1lL1dxHsZWn0usOWnbF2ZT6vXAg3fNy5TbZuPU6gG8t6lOr9FBAGeeR4apV3+Npf9OAYQ07hCS41s9g=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MySQL_DBConnection_task_logs_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MySQL_DBConnection_task_logs_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MySQL_DBConnection_task_logs_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MySQL_DBConnection_task_logs_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XumDDC7tKQgvEUTOCeY7UVHIg8Foy1E8K+XBqYl61yDe/3FQ4hrs7Pd3q48ItBt7R88UJM4m3MUX0crggV0DEVVAZTvgTECEk2HJzgvVSmfM6/13"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;orchestration_trigger_api&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
@@ -684,9 +684,9 @@
     <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
-    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false" show="false"/>
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
-    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" key="true" length="24" name="Trigger_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
