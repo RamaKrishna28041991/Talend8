@@ -3,13 +3,11 @@
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_mdaU0MZoEe-8UahjDUH8ig"/>
     <contextParameter comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="62146eea35a00b1c46aae429" internalId="_mdaU0cZoEe-8UahjDUH8ig"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Login" prompt="MySQL_DBConnection_Logs_staging_Login?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="root" internalId="_RkmJ4Mk8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Database" prompt="MySQL_DBConnection_Logs_staging_Database?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="logs_stagging" internalId="_RkmJ4ck8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Password" prompt="MySQL_DBConnection_Logs_staging_Password?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_Password" value="enc:system.encryption.key.v1:r0BmjcmEYf9M0bdTOVOWV32uKe251j7+/tioSzR/d2wgwylVld8djg==" internalId="_RkmJ4sk8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Port" prompt="MySQL_DBConnection_Logs_staging_Port?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="3306" internalId="_RkmJ48k8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_AdditionalParams" prompt="MySQL_DBConnection_Logs_staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_RkmJ5Mk8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Server" prompt="MySQL_DBConnection_Logs_staging_Server?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="localhost" internalId="_RkmJ5ck8Ee-kVJu3eFXszA"/>
-    <contextParameter comment="" name="directory_path" prompt="directory_path?" promptNeeded="false" repositoryContextId="_xtqF4MxOEe-9cLxTb5xxbg" type="id_Directory" value="D:/Artha/0. Project - Tasks/1. LogsExtraction/tmp_files/" internalId="_8mepkMxOEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_database" prompt="connection_MySQL_DBConnection_task_logs_database?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="task_logs" internalId="_qJixIM0zEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_Server" prompt="connection_MySQL_DBConnection_task_logs_Server?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="localhost" internalId="_qJixIc0zEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_port" prompt="connection_MySQL_DBConnection_task_logs_port?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="3306" internalId="_qJixIs0zEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_Password" prompt="connection_MySQL_DBConnection_task_logs_Password?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_Password" value="enc:system.encryption.key.v1:Jd4dT0Nimi7hjv0+eZ1BKOavs5cJ3BJb2axD1Uk0Omj1kK+MsBcoSw==" internalId="_qJixI80zEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_user" prompt="connection_MySQL_DBConnection_task_logs_user?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="root" internalId="_qJixJM0zEe-9cLxTb5xxbg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -343,7 +341,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_iwqXkMxNEe-9cLxTb5xxbg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_FUBQUM0yEe-9cLxTb5xxbg-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -427,7 +425,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_iwqXkMxNEe-9cLxTb5xxbg-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_FUBQUM0yEe-9cLxTb5xxbg-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -736,13 +734,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_staging_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MySQL_DBConnection_task_logs_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_staging_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_staging_Database"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MySQL_DBConnection_task_logs_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MySQL_DBConnection_task_logs_database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_staging_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A6fViq/8lBhpSeZkiVoKm5bix6twCDJBKenDnNwMZrbtIkMOac24Y/31jvfHWuRYpoFbqinj9AQa/YBtB0uwkz265bMPQDqfEjZSmA=="/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MySQL_DBConnection_task_logs_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cTD00mTXApvpSQvRvf1V2M8KyTvLsAEXpOctkdjKDLosC8NNF4SebMw067ZXaSGZfwtwUZcd1PGw7ysC/v0nydXH45pbSIPEzy94vwchVOItwsOo"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
