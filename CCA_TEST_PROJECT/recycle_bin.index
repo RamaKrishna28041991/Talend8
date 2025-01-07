@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedItems id="_183nkMn5Ee-rq_dRKv7l-w" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_2eIOcbZZEe-AItsIYaLWjg" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_MJ6x4MZzEe-8UahjDUH8ig" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_Nwzu8LZTEe-AItsIYaLWjg" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_b-NdgclGEe-rq_dRKv7l-w" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_nqcxALZUEe-AItsIYaLWjg" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_sTxM4LZREe-AItsIYaLWjg" path="" type="METADATA_GENERIC_SCHEMA"/>
-  <deletedItems id="_KOpO0MkiEe-kVJu3eFXszA" path="Logs/New_Logs" type="PROCESS"/>
-  <deletedItems id="_jOQmsMklEe-kVJu3eFXszA" path="Logs/New_Logs" type="PROCESS"/>
-  <deletedItems id="_kf5xkMkhEe-kVJu3eFXszA" path="Logs/New_Logs" type="PROCESS"/>
-  <deletedItems id="_FTHRYM0yEe-9cLxTb5xxbg" path="Logs/Streamlined_logs_toProd" type="PROCESS"/>
-  <deletedItems id="_FWmDMM0yEe-9cLxTb5xxbg" path="Logs/Streamlined_logs_toProd" type="PROCESS"/>
-  <deletedItems id="_FYaoIM0yEe-9cLxTb5xxbg" path="Logs/Streamlined_logs_toProd" type="PROCESS"/>
-  <deletedItems id="_Nx0ogMoQEe-9cLxTb5xxbg" path="" type="ROUTINES"/>
-</recyclebin:RecycleBin>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
