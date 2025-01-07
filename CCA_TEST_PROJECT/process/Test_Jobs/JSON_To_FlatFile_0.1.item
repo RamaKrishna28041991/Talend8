@@ -183,7 +183,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="idx" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;$['col1'].keys()&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;$['col1'].keySet()&quot;" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="col1_value" id="2"/>
       <elementValue elementRef="QUERY" value="&quot;$['col1'].*&quot;" id="3"/>
     </elementParameter>
