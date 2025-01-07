@@ -537,9 +537,11 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_MySQL_DBConnection_task_logs_database"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_MySQL_DBConnection_task_logs_user"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l8db2bJob03lWi9JllBRsQM0HIpxi6Wafk8e/ow/mk66isyqHTDMRFwOlc8z3Ffi9Q1P7mLryxCjDbwBqN+/yZnRAyBEAt3ey2QM6rE3Mv3tM4Co"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;orchestration_plans_api&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;orchestration_api_plans&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" value="_k7uzAM00Ee-9cLxTb5xxbg - orchestration_api_plans" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -623,7 +625,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="orchestration_plans_api"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tDBOutput_1">
+    <metadata connector="FLOW" label="orchestration_api_plans" name="tDBOutput_1">
       <column comment="" key="true" length="64" name="plan_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="plan_name" nullable="true" pattern="" precision="0" sourceType="TINYTEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="64" name="workspace_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -637,7 +639,7 @@
       <column comment="" key="false" length="255" name="task_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="task_version" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
+    <metadata connector="REJECT" label="orchestration_api_plans" name="REJECT">
       <column comment="" key="true" length="64" name="plan_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="plan_name" nullable="true" pattern="" precision="0" sourceType="TINYTEXT" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="64" name="workspace_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
