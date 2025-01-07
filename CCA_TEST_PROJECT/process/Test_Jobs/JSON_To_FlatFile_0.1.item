@@ -172,19 +172,19 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/bills/bill/line&quot;" show="false"/>
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$['col1'].*&quot;"/>
     <elementParameter field="TABLE" name="MAPPING" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="idx" id="0"/>
       <elementValue elementRef="QUERY" value="" id="1"/>
       <elementValue elementRef="NODECHECK" value="false" id="2"/>
       <elementValue elementRef="ISARRAY" value="false" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="col1_value" id="4"/>
       <elementValue elementRef="QUERY" value="" id="5"/>
       <elementValue elementRef="NODECHECK" value="false" id="6"/>
       <elementValue elementRef="ISARRAY" value="false" id="7"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
-      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="idx" id="0"/>
       <elementValue elementRef="QUERY" value="&quot;$['col1'].keys()&quot;" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="col1_value" id="2"/>
       <elementValue elementRef="QUERY" value="&quot;$['col1'].*&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
@@ -196,12 +196,12 @@
     <elementParameter field="CHECK" name="SPLIT_LIST" value="true" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tExtractJSONFields_1">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="idx" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="col1_value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="idx" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="col1_value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -221,17 +221,17 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="key" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="idx" id="0"/>
       <elementValue elementRef="LENGTH" value="10" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="value" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="col1_value" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_2">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="idx" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="col1_value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputJSON_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputJSON_1" target="tLogRow_1">
