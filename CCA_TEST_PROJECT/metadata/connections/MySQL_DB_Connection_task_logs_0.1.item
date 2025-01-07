@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_yRhdgM02Ee-9cLxTb5xxbg" name="MySQL_DB_Connection_task_logs" id="_rCSPoM02Ee-9cLxTb5xxbg" label="MySQL_DB_Connection_task_logs" dataPackage="_ySGsUM02Ee-9cLxTb5xxbg" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/task_logs?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:SCsUS/1deXkAOAwa5qGlZkXKpn3aWvzIN3dP7lhq+gO2rvS2FNTTgg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="task_logs" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_yRhdgc02Ee-9cLxTb5xxbg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_yRr1kM02Ee-9cLxTb5xxbg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_yRvf8M02Ee-9cLxTb5xxbg" tag="Status" value=""/>
+    <taggedValue xmi:id="_yRvf8c02Ee-9cLxTb5xxbg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_yRvf8s02Ee-9cLxTb5xxbg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_yRvf8802Ee-9cLxTb5xxbg" tag="Description" value=""/>
+    <taggedValue xmi:id="_yRvf9M02Ee-9cLxTb5xxbg" tag="Author" value=""/>
+    <taggedValue xmi:id="_yRvf9c02Ee-9cLxTb5xxbg" tag="otherParameter"/>
+    <taggedValue xmi:id="_yR8UQM02Ee-9cLxTb5xxbg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_yR8UQc02Ee-9cLxTb5xxbg" tag="DB ProductVersion" value="8.0.40"/>
+    <taggedValue xmi:id="_yR8UQs02Ee-9cLxTb5xxbg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_yRhdgs02Ee-9cLxTb5xxbg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ySGsUM02Ee-9cLxTb5xxbg" name="task_logs" dataManager="_yRhdgM02Ee-9cLxTb5xxbg"/>
+</xmi:XMI>
