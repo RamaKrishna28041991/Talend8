@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_20rxkM00Ee-9cLxTb5xxbg" comment="connectionComment" label="connectionLabel" dataPackage="_20rxkc00Ee-9cLxTb5xxbg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_20rxkc00Ee-9cLxTb5xxbg" dataManager="_20rxkM00Ee-9cLxTb5xxbg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_20rxks00Ee-9cLxTb5xxbg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxk800Ee-9cLxTb5xxbg" name="Trigger_ID" id="48715" label="Trigger_ID" length="24" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxlM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxlc00Ee-9cLxTb5xxbg" name="Trigger_Type" id="48716" label="Trigger_Type" length="24" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxls00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxl800Ee-9cLxTb5xxbg" name="Trigger_Description" id="48717" label="Trigger_Description" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_20rxmM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxmc00Ee-9cLxTb5xxbg" name="Interval" id="48718" label="Interval" length="36" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxms00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxm800Ee-9cLxTb5xxbg" name="Trigger_StartDate" id="48719" label="Trigger_StartDate" length="15" sourceType="VARCHAR" talendType="id_String" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_20rxnM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxnc00Ee-9cLxTb5xxbg" name="Trigger_TimeZone" id="48720" label="Trigger_TimeZone" length="20" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxns00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxn800Ee-9cLxTb5xxbg" name="Trigger_Specific_Type" id="48721" label="Trigger_Specific_Type" length="36" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxoM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxoc00Ee-9cLxTb5xxbg" name="Trigger_Specific_Time" id="48722" label="Trigger_Specific_Time" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxos00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxo800Ee-9cLxTb5xxbg" name="Trigger_Name" id="48723" label="Trigger_Name" length="65535" sourceType="TEXT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxpM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxpc00Ee-9cLxTb5xxbg" name="Trigger_Timeout" id="48724" label="Trigger_Timeout" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxps00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxp800Ee-9cLxTb5xxbg" name="Executable_Id" id="48725" label="Executable_Id" length="36" sourceType="VARCHAR" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxqM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxqc00Ee-9cLxTb5xxbg" name="Executable_Type" id="48726" label="Executable_Type" length="10" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_20rxqs00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxq800Ee-9cLxTb5xxbg" name="CronExpression" id="48727" label="CronExpression" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxrM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxrc00Ee-9cLxTb5xxbg" name="Minutes" id="48728" label="Minutes" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxrs00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxr800Ee-9cLxTb5xxbg" name="Hours" id="48729" label="Hours" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxsM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxsc00Ee-9cLxTb5xxbg" name="Day_Of_Month" id="48730" label="Day_Of_Month" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxss00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxs800Ee-9cLxTb5xxbg" name="Months" id="48731" label="Months" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxtM00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxtc00Ee-9cLxTb5xxbg" name="Days_Of_Week" id="48732" label="Days_Of_Week" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxts00Ee-9cLxTb5xxbg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20rxt800Ee-9cLxTb5xxbg" name="Year" id="48733" label="Year" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_20rxuM00Ee-9cLxTb5xxbg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
