@@ -1,0 +1,65 @@
+{
+  "itemId" : "_FWmDMM0yEe-9cLxTb5xxbg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_gz2kULMtEe-4Trc3duuI2A",
+    "parameterList" : [ {
+      "id" : "_g0KGUbMtEe-4Trc3duuI2A",
+      "name" : "bearerToken"
+    }, {
+      "id" : "_k0GJ0LMxEe-ivtgpgLng5A",
+      "name" : "envID"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ecoowMk7Ee-kVJu3eFXszA",
+    "parameterList" : [ {
+      "id" : "_ec9Y4ck7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_Login"
+    }, {
+      "id" : "_ec9Y5Mk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_Database"
+    }, {
+      "id" : "_ec9Y5sk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_Password"
+    }, {
+      "id" : "_ec9Y4sk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_Port"
+    }, {
+      "id" : "_ec9Y48k7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_AdditionalParams"
+    }, {
+      "id" : "_ec9Y5ck7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_staging_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_xtqF4MxOEe-9cLxTb5xxbg",
+    "parameterList" : [ {
+      "id" : "_xt4vYcxOEe-9cLxTb5xxbg",
+      "name" : "directory_path"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wxcDUMxQEe-9cLxTb5xxbg",
+    "parameterList" : [ {
+      "id" : "_ec9Y5Mk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_Database"
+    }, {
+      "id" : "_ec9Y5sk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_Password"
+    }, {
+      "id" : "_ec9Y48k7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_AdditionalParams"
+    }, {
+      "id" : "_ec9Y4ck7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_Login"
+    }, {
+      "id" : "_ec9Y5ck7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_Server"
+    }, {
+      "id" : "_ec9Y4sk7Ee-kVJu3eFXszA",
+      "name" : "MySQL_DBConnection_Logs_production_Port"
+    } ]
+  } ]
+}
