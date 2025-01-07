@@ -485,11 +485,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_staging_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_staging_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_staging_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_staging_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TwjvgxqkAOCkT8GGPe7/+owsygtaM3/mJyOLoA3nUE5hZnVh+lPF815bZ6iqX87/KMOnITApZ3xYYBu9dujpLeZCd8PXrazEHp8hQw=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MySQL_DBConnection_task_logs_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MySQL_DBConnection_task_logs_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MySQL_DBConnection_task_logs_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MySQL_DBConnection_task_logs_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9DbsASw3glvLzOAfJor0zMPLQ+kyh5Tx8oI4cU9nHeRXipY2o94JUAIGEM0kFRIKoMx7Cbt+0EQdpbOi2vf34nBT+aZi83C3zZjyvIH+uQ0rrkHb"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;execution_search_api&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -609,11 +609,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_DBConnection_Logs_staging_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_DBConnection_Logs_staging_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_DBConnection_Logs_staging_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_DBConnection_Logs_staging_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U8gnZcWV1tbkwMZ3xkH2ogQoSB5UovnLd3HmfJTc2BHxqezx8/1O9r3xBlBsUZqN103GzDjPnrZcGI+eQMHCq5MGid9TNtSwRqD9dw=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MySQL_DBConnection_task_logs_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MySQL_DBConnection_task_logs_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MySQL_DBConnection_task_logs_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MySQL_DBConnection_task_logs_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XjHkk8FnBN3M4Cu6iefW9TTx60uRITQvgtNX3QJRBC4rqtX39yoHgfq19VYHkC7JooTIwY9lRUoRH8eFC4024q0ZWRVsloeYWhCALFTdyPYkSEVH"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;execution_search_api&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -749,7 +749,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Stagging MySQL Connection"/>
+    <elementParameter field="TEXT" name="LABEL" value="Local MySQL Connection"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-120">
