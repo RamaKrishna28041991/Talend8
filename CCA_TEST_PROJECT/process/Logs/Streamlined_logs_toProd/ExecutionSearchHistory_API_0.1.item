@@ -8,6 +8,7 @@
     <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_port" prompt="connection_MySQL_DBConnection_task_logs_port?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="3306" internalId="_qJixIs0zEe-9cLxTb5xxbg"/>
     <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_Password" prompt="connection_MySQL_DBConnection_task_logs_Password?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_Password" value="enc:system.encryption.key.v1:Jd4dT0Nimi7hjv0+eZ1BKOavs5cJ3BJb2axD1Uk0Omj1kK+MsBcoSw==" internalId="_qJixI80zEe-9cLxTb5xxbg"/>
     <contextParameter comment="" name="connection_MySQL_DBConnection_task_logs_user" prompt="connection_MySQL_DBConnection_task_logs_user?" promptNeeded="false" repositoryContextId="_Qcn8cM0yEe-9cLxTb5xxbg" type="id_String" value="root" internalId="_qJixJM0zEe-9cLxTb5xxbg"/>
+    <contextParameter comment="" name="new_bearer_token" prompt="new_bearer_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="eUPOezEFQ1ON3MlLY6GhYS6GAmYWftfDHmWKO27GR7_LngKfqT36GcDn0PIpBiLj" internalId="_egprcNzWEe-lE78IdtLTzA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -118,7 +119,7 @@
     <elementParameter field="TEXT" name="LABEL" value="ExecutionSearch_API"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.us.cloud.talend.com/monitoring/observability/executions/search"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="Bearer"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.bearerToken" value="enc:system.encryption.key.v1:i7JnnBMtKaI90GnXUBc4dLNraSDQlHLWdxxOGOaQ1vKVYT7nTb8yAXeoRYEXdNHRqWJ9Z/ccEOCzLHkC2nqVggza"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.bearerToken" value="enc:system.encryption.key.v1:H0QN51uoyUTk7gwEPYziTq9OMdP1KzDSVvhXII0EDVquc2TKRxkY2/HzqHOZ91upHLpxkfEKtUnxJ7w1qND4F5lKUAsy"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value="Authorization" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey" show="false"/>
@@ -275,6 +276,8 @@
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;bearerToken&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="context.bearerToken" id="1"/>
+      <elementValue elementRef="KEY" value="&quot;newBearerToken&quot;" id="2"/>
+      <elementValue elementRef="VALUE" value="context.new_bearer_token" id="3"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="Global variables"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
