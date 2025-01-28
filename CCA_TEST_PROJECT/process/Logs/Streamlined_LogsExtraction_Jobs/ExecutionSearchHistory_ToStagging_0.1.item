@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="GmPTeuoWQf6tp2HQhJOUIamMqr107H3C4OvBBEQJl6Urj_yD_DzLTrteNpPpIUd-" internalId="_mdaU0MZoEe-8UahjDUH8ig"/>
+    <contextParameter comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="noTR8ZbNSuqal0kFHV9hHPHqeLrnbJDCQa47q1zd5xLtxcSHVXjZ10dm1KPBbfTl" internalId="_mdaU0MZoEe-8UahjDUH8ig"/>
     <contextParameter comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="_gz2kULMtEe-4Trc3duuI2A" type="id_String" value="62146eea35a00b1c46aae429" internalId="_mdaU0cZoEe-8UahjDUH8ig"/>
     <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Login" prompt="MySQL_DBConnection_Logs_staging_Login?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="root" internalId="_RkmJ4Mk8Ee-kVJu3eFXszA"/>
     <contextParameter comment="" name="MySQL_DBConnection_Logs_staging_Database" prompt="MySQL_DBConnection_Logs_staging_Database?" promptNeeded="false" repositoryContextId="_ecoowMk7Ee-kVJu3eFXszA" type="id_String" value="logs_stagging" internalId="_RkmJ4ck8Ee-kVJu3eFXszA"/>
@@ -848,7 +848,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;0"/>
@@ -879,7 +879,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;0;0"/>
