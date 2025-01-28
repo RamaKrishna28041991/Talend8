@@ -104,10 +104,8 @@
   <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
-      <elementValue elementRef="KEY" value="&quot;bearerToken&quot;" id="0"/>
-      <elementValue elementRef="VALUE" value="context.bearerToken" id="1"/>
-      <elementValue elementRef="KEY" value="&quot;newBearerToken&quot;" id="2"/>
-      <elementValue elementRef="VALUE" value="context.new_bearer_token" id="3"/>
+      <elementValue elementRef="KEY" value="&quot;newBearerToken&quot;" id="0"/>
+      <elementValue elementRef="VALUE" value="context.new_bearer_token" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="Global variables"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
