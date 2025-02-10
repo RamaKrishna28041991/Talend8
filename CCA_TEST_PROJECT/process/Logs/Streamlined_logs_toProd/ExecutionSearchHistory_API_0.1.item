@@ -257,6 +257,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="int rowsNormal = (Integer)globalMap.get(&quot;rows_inserted_normal&quot;);&#xA;int rowsFormatted = (Integer)globalMap.get(&quot;rows_inserted_formatted&quot;);&#xA;int totalRowsInserted = rowsNormal + rowsFormatted;&#xA;&#xA;&#xA;globalMap.put(&quot;total_rows_inserted&quot;, totalRowsInserted);&#xA;System.out.println(&quot;\n Total Rows Inserted into Stagging Database: &quot; + totalRowsInserted + &quot;\n&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -833,6 +834,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tJava_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tMap_1">
@@ -840,15 +842,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="ExecutionSearch_NormalFormat" lineStyle="0" metaname="ExecutionSearch_NormalFormat" offsetLabelX="-50" offsetLabelY="1" outputId="1" source="tMap_1" target="tDBOutput_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="ExecutionSearch_NormalFormat" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="ExecutionSearch" lineStyle="0" metaname="ExecutionSearch" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tMap_2">
+  <connection connectorName="FLOW" label="ExecutionSearch" lineStyle="0" metaname="ExecutionSearch" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ExecutionSearch" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="ExecutionSearch_NormalFormat" lineStyle="0" metaname="ExecutionSearch_NormalFormat" offsetLabelX="-50" offsetLabelY="1" outputId="2" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="ExecutionSearch_NormalFormat" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ExecutionSearch_FixedOutput" lineStyle="0" metaname="ExecutionSearch_FixedOutput" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
