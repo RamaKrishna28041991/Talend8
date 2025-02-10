@@ -12,6 +12,9 @@
     }, {
       "id" : "_Lmte4MkrEe-kVJu3eFXszA",
       "name" : "currentDate"
+    }, {
+      "id" : "_Jy01MOfREe-xu8SiRJttFw",
+      "name" : "newBearerToken"
     } ]
   }, {
     "contextName" : "Default",
