@@ -16,18 +16,20 @@
     </schema>
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_jHMHXefPEe-xu8SiRJttFw" name="default" dataManager="_jHMHUOfPEe-xu8SiRJttFw">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jHMHXufPEe-xu8SiRJttFw" id="_LgIy8OfOEe-xu8SiRJttFw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHX-fPEe-xu8SiRJttFw" label="run_id" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYOfPEe-xu8SiRJttFw" label="task_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYefPEe-xu8SiRJttFw" label="task_type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYufPEe-xu8SiRJttFw" label="task_name" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHY-fPEe-xu8SiRJttFw" label="run_status" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZOfPEe-xu8SiRJttFw" label="last_run_date" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZefPEe-xu8SiRJttFw" label="last_triggering_date" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZufPEe-xu8SiRJttFw" label="jobVersion" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZ-fPEe-xu8SiRJttFw" label="error_message" length="80" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHaOfPEe-xu8SiRJttFw" label="trigger_type" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHaefPEe-xu8SiRJttFw" label="executeDurationMs" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jHMHXufPEe-xu8SiRJttFw" id="_LgIy8OfOEe-xu8SiRJttFw" label="execution_search_history">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHX-fPEe-xu8SiRJttFw" label="run_id" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYOfPEe-xu8SiRJttFw" label="task_id" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYefPEe-xu8SiRJttFw" label="task_type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHYufPEe-xu8SiRJttFw" label="task_name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHY-fPEe-xu8SiRJttFw" label="run_status" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZOfPEe-xu8SiRJttFw" label="last_run_date" length="255" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZefPEe-xu8SiRJttFw" label="last_triggering_date" length="255" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZufPEe-xu8SiRJttFw" label="jobVersion" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_tHypkOfPEe-xu8SiRJttFw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHZ-fPEe-xu8SiRJttFw" label="error_message" length="65535" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHaOfPEe-xu8SiRJttFw" label="trigger_type" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jHMHaefPEe-xu8SiRJttFw" label="executeDurationMs" length="24" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
