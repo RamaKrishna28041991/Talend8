@@ -3,4 +3,5 @@
   <contextParameter xmi:id="_g0KGUbMtEe-4Trc3duuI2A" comment="" name="bearerToken" prompt="bearerToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noTR8ZbNSuqal0kFHV9hHPHqeLrnbJDCQa47q1zd5xLtxcSHVXjZ10dm1KPBbfTl"/>
   <contextParameter xmi:id="_k0GJ0LMxEe-ivtgpgLng5A" comment="" name="envID" prompt="envID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="62146eea35a00b1c46aae429"/>
   <contextParameter xmi:id="_Lmte4MkrEe-kVJu3eFXszA" comment="" name="currentDate" prompt="currentDate?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="0"/>
+  <contextParameter xmi:id="_Jy01MOfREe-xu8SiRJttFw" comment="" name="newBearerToken" prompt="newBearerToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noTR8ZbNSuqal0kFHV9hHPHqeLrnbJDCQa47q1zd5xLtxcSHVXjZ10dm1KPBbfTl"/>
 </talendfile:ContextType>
